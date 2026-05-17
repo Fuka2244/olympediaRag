@@ -1,0 +1,140 @@
+======================================================================
+Top-K 相关性评估报告
+======================================================================
+
+总问题数: 398
+评分标准: 3=高度相关, 2=相关, 1=部分相关, 0=不相关
+注意: 对每个TopK范围取【最高相关性】，即只要TopK中有相关表就算命中
+
+======================================================================
+Similarity 检索相关性
+======================================================================
+
+  Similarity  TOP1: 高度相关=93(23.4%) | 相关=248(62.3%) | 部分相关=261(65.6%) | 不相关=137(34.4%)
+
+  Similarity  TOP3: 高度相关=159(39.9%) | 相关=296(74.4%) | 部分相关=305(76.6%) | 不相关=93(23.4%)
+
+  Similarity  TOP5: 高度相关=184(46.2%) | 相关=315(79.1%) | 部分相关=322(80.9%) | 不相关=76(19.1%)
+
+  Similarity TOP40: 高度相关=311(78.1%) | 相关=355(89.2%) | 部分相关=360(90.5%) | 不相关=38(9.5%)
+
+======================================================================
+Rerank 检索相关性
+======================================================================
+
+  Rerank  TOP1: 高度相关=99(24.9%) | 相关=201(50.5%) | 部分相关=219(55.0%) | 不相关=179(45.0%)
+
+  Rerank  TOP3: 高度相关=204(51.3%) | 相关=290(72.9%) | 部分相关=307(77.1%) | 不相关=91(22.9%)
+
+  Rerank  TOP5: 高度相关=240(60.3%) | 相关=312(78.4%) | 部分相关=323(81.2%) | 不相关=75(18.8%)
+
+  Rerank TOP25: 高度相关=308(77.4%) | 相关=351(88.2%) | 部分相关=356(89.4%) | 不相关=42(10.6%)
+
+======================================================================
+Rerank Top1 vs Similarity Top1 对比
+======================================================================
+  两者都高度相关(≥2): 62 (15.6%)
+  Similarity好但Rerank差: 79 (19.8%)
+  Rerank好但Similarity差: 32 (8.0%)
+  两者都不好(≤1): 118 (29.6%)
+
+--- Rerank Top1 比 Similarity Top1 更好的问题 (采样) ---
+  [0->3] Q: Who was the first athlete to break the 10-second barrier in the 100-me
+      Sim: athlete_olympic_records | Rerank: olympics_athletes_infobox
+  [0->3] Q: Which city hosted the 1996 Summer Olympics?
+      Sim: country_infobox | Rerank: editions_bid_process
+  [2->3] Q: Who carried the flag for Australia at the opening ceremony of the 2021
+      Sim: flagbearers | Rerank: ceremonies_official_oath
+  [2->3] Q: Who carried the flag for Japan at the opening ceremony of the 2021 Sum
+      Sim: flagbearers | Rerank: ceremonies_official_oath
+  [2->3] Q: Who carried the flag for Sweden at the opening ceremony of the 2021 Su
+      Sim: flagbearers | Rerank: ceremonies_official_oath
+  [0->2] Q: Which Summer Olympics recorded the highest overall attendance in histo
+      Sim: event_total_participants | Rerank: athlete_olympic_records
+  [0->3] Q: Which city holds the record for the highest average attendance per ses
+      Sim: country_edition | Rerank: records_archery
+  [0->2] Q: Which country holds the record for the highest total attendance across
+      Sim: country_edition | Rerank: athlete_olympic_records
+  [0->1] Q: Which Summer Olympics saw the highest attendance for a specific event 
+      Sim: event_names_best_performance_bycountry | Rerank: event_names_basic_info
+  [0->2] Q: Which African country is known for its long-distance runners and has w
+      Sim: country_most_successful_competitors | Rerank: event_names_medal_winners
+
+--- Rerank Top1 比 Similarity Top1 更差的问题 (采样) ---
+  [3->0] Q: In which year were the first modern Olympic Games held?
+      Sim: editions_basic_info | Rerank: edition_sport_overview
+  [3->2] Q: Who holds the record for the most Olympic gold medals of all time?
+      Sim: editions_top_competitors | Rerank: athlete_olympic_records
+  [2->0] Q: Which country holds the record for the most Olympic gold medals won in
+      Sim: country_most_successful_competitors | Rerank: country_infobox
+  [3->2] Q: Which stadium holds the record for the highest attendance at a single 
+      Sim: venues | Rerank: athlete_olympic_records
+  [2->0] Q: Which South American country has won Olympic medals in multiple sports
+      Sim: country_sport_result | Rerank: editions_medal_details
+  [2->1] Q: Which Oceanian nation has excelled in Olympic rugby sevens and won gol
+      Sim: country_medal_by_game | Rerank: country_sport_result
+  [3->0] Q: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+      Sim: horse_event_record | Rerank: event_names_total_participants
+  [2->0] Q: Olympic Shooters who won more than one Olympic title in the same event
+      Sim: event_names_medal_winners | Rerank: athlete_other_participations
+  [2->0] Q: Olympic Divers - Individual Double Champions, Different Years
+      Sim: event_names_medal_winners | Rerank: event_names_basic_info
+  [2->0] Q: Basketball players who won more than one Olympic title in the same eve
+      Sim: event_names_top_medallists | Rerank: athlete_other_participations
+
+======================================================================
+Rerank Top1 不相关问题 (score=0) - 采样20个
+======================================================================
+  总计: 179 (45.0%)
+  Q: In which year were the first modern Olympic Games held?
+     Rerank Top1: edition_sport_overview | Sim Top1: editions_basic_info
+  Q: In which year did the United States boycott the Summer Olympics held in Moscow?
+     Rerank Top1: place_names | Sim Top1: country_infobox
+  Q: Which Olympic Games were held in Montreal?
+     Rerank Top1: event_names_basic_info | Sim Top1: edition_sport_events
+  Q: In which year were women allowed to participate in athletics events for the firs
+     Rerank Top1: event_names_total_participants | Sim Top1: country_edition
+  Q: Which country has hosted the Summer Olympics five times?
+     Rerank Top1: country_description | Sim Top1: country_description
+  Q: Which country has won the most medals in the history of the Summer Olympics?
+     Rerank Top1: country_most_successful_competitors | Sim Top1: country_most_successful_competitors
+  Q: In which year did the Summer Olympics include the first-ever team sports event f
+     Rerank Top1: edition_sport_events | Sim Top1: sport_group_top_athletes
+  Q: Which country holds the record for the most Olympic gold medals won in swimming?
+     Rerank Top1: country_infobox | Sim Top1: country_most_successful_competitors
+  Q: Which sport at the Summer Olympics typically draws the largest crowds?
+     Rerank Top1: records_speed_skating | Sim Top1: country_edition
+  Q: Which Summer Olympics had the highest single-day attendance?
+     Rerank Top1: event_names_basic_info | Sim Top1: country_edition
+  Q: Which Summer Olympics experienced challenges in attendance due to political boyc
+     Rerank Top1: event_names_basic_info | Sim Top1: country_participants
+  Q: Which small European country has a strong tradition in Olympic weightlifting, de
+     Rerank Top1: country_description | Sim Top1: country_infobox
+  Q: Which Asian country has made a mark in Olympic badminton, producing top-tier pla
+     Rerank Top1: country_description | Sim Top1: country_most_successful_competitors
+  Q: Which South American country has won Olympic medals in multiple sports, includin
+     Rerank Top1: editions_medal_details | Sim Top1: country_sport_result
+  Q: Which Eastern European country is known for its success in Olympic canoeing and 
+     Rerank Top1: country_infobox | Sim Top1: event_names_best_performance_bycountry
+  Q: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+     Rerank Top1: event_names_total_participants | Sim Top1: horse_event_record
+  Q: Olympic Shooters who won more than one Olympic title in the same event in non-co
+     Rerank Top1: athlete_other_participations | Sim Top1: event_names_medal_winners
+  Q: Olympic Divers - Individual Double Champions, Different Years
+     Rerank Top1: event_names_basic_info | Sim Top1: event_names_medal_winners
+  Q: Basketball players who won more than one Olympic title in the same event in non-
+     Rerank Top1: athlete_other_participations | Sim Top1: event_names_top_medallists
+  Q: Water Polo players who won more than one Olympic title in the same event in non-
+     Rerank Top1: athlete_other_participations | Sim Top1: editions_top_competitors
+
+======================================================================
+Rerank Top1 得分区间 vs 相关性
+======================================================================
+  Rerank得分       ≤0.001: 问题数=122, 相关(≥2)=47 (38.5%)
+  Rerank得分  0.001-0.005: 问题数=151, 相关(≥2)=87 (57.6%)
+  Rerank得分   0.005-0.01: 问题数=48, 相关(≥2)=30 (62.5%)
+  Rerank得分        >0.01: 问题数=77, 相关(≥2)=37 (48.1%)
+
+======================================================================
+评估完成
+======================================================================

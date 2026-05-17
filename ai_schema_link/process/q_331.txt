@@ -1,0 +1,1600 @@
+
+============================================================
+[中间过程] enriched rerank_top25:
+  1. country_most_successful_competitors - Most successful competitors for each country in Olympic history
+      id: Auto-increment primary key
+      noc: National Olympic Committee code
+      competition_type: Competition type
+      athlete: Competitor name
+      athlete_id: Competitor identifier
+      nat: Country code (multiple if applicable, separated by #)
+      gold: Number of gold medals
+      silver: Number of silver medals
+      bronze: Number of bronze medals
+      total: Total number of medals
+      created_at: Creation timestamp
+  2. country_sport_result - Results achieved by countries in specific sports and events
+      id: Auto-increment primary key
+      page_title: Page title
+      noc: National Olympic Committee code
+      sport_id: Sport identifier
+      competition_type: Competition type
+      edition_name: Edition name
+      result_id: Result identifier
+      athlete: Athlete name
+      athlete_id: Athlete identifier
+      result: Result details
+      medal: Medal type
+  3. olympics_athletes_infobox - Basic information about Olympic athletes
+      id: Unique identifier
+      source: Data source
+      name: Name
+      year_of_birth: Year of birth
+      country: Country or region
+      games_participations: Number of Olympic Games participated in
+      first_olympic_games: First Olympic Games participated in
+      gender: Gender (M/F)
+      disciplines: Sports disciplines (comma-separated)
+      gold_count: Number of gold medals
+      silver_count: Number of silver medals
+      bronze_count: Number of bronze medals
+  4. sport_top_athletes - Top athletes by sport
+      id: Auto-increment primary key
+      sport: Sport name
+      sport_id: Sport identifier
+      athlete: Athlete name
+      athlete_id: Athlete identifier
+      nation: Nation
+      nation_id: Nation identifier
+      gold: Number of gold medals
+      silver: Number of silver medals
+      bronze: Number of bronze medals
+      total: Total number of medals
+      source_url: Source URL
+  5. olympics_athlete_biographies - Biographical text information for Olympic athletes
+      id: Unique identifier
+      athlete_id: Athlete identifier
+      passage_id: Passage identifier
+      text: Text content
+  6. athlete_olympic_records - Olympic records held by athletes, including event details and performance marks
+      id: Auto-increment primary key
+      athlete_id: Athlete unique identifier
+      games: Olympic Games name
+      edition_id: Olympic Games edition ID
+      date: Date of record
+      sport: Sport name
+      sport_group: Sport group or discipline
+      sport_id: Sport identifier
+      sport_group_id: Sport group identifier
+      event: Specific competition event
+      event_name_id: Event name identifier
+      phase: Competition phase
+      mark: Record or performance mark
+      result_id: Result identifier
+      pos: Position or ranking
+  7. edition_sport_medal - Medal winners for sport events in Olympic Games editions
+      id: Auto-increment primary key
+      edition_id: Edition identifier (from URL)
+      sport_event: Competition event name
+      result_id: Result identifier
+      gold: Gold medal winner
+      gold_noc: Gold medal country code
+      gold_athletes_id: Gold medal athlete identifier
+      silver: Silver medal winner
+      silver_noc: Silver medal country code
+      silver_athletes_id: Silver medal athlete identifier
+      bronze: Bronze medal winner
+      bronze_noc: Bronze medal country code
+      bronze_athletes_id: Bronze medal athlete identifier
+      source_url: Source URL
+  8. country_edition_result - Results achieved by countries in specific Olympic Games editions
+      id: Auto-increment primary key
+      page_title: Page title
+      noc: National Olympic Committee code
+      sport: Sport name
+      result_id: Result identifier
+      athlete: Athlete name
+      edition_id: Edition identifier
+      athlete_id: Athlete identifier
+      result: Result details
+      medal: Medal type
+  9. olympic_athlete_results - Competition results for Olympic athletes
+      id: Unique identifier
+      athlete_id: Athlete identifier
+      games: Olympic Games name
+      team: Team code (NOC)
+      discipline: Sport discipline
+      event: Specific event
+      position: Position or ranking
+      medal: Medal type (GOLD, SILVER, BRONZE, -)
+  10. editions_medal_details - Detailed medal information for Olympic Games editions by sport and event
+      id: Auto-increment primary key
+      edition_id: Edition identifier
+      sport_event: Sport event name
+      event: Specific event name
+      gold: Gold medal winner
+      gold_noc: Gold medal country code
+      silver: Silver medal winner
+      silver_noc: Silver medal country code
+      bronze: Bronze medal winner
+      bronze_noc: Bronze medal country code
+      source_url: Source URL
+      created_at: Creation timestamp
+  11. edition_sport_events - Sport events held during Olympic Games editions
+      id: Auto-increment primary key
+      edition_id: Edition identifier
+      result_id: Result identifier
+      event_name: Event name
+      participants: Number of participants
+      nocs_count: Number of participating countries
+      status: Event status
+      date: Event dates
+      source_url: Source URL
+  12. sports - Olympic sports information
+      id: Auto-increment primary key
+      sport_id: Sport identifier
+      sport: Sport name
+      discipline_of: Discipline of
+      group_id: Group identifier
+      participants: Number of participants
+      nocs: Number of NOCs
+      competitions_held: Number of competitions held
+      distinct_events: Number of distinct events
+      if_name: International Federation name
+      if_id: International Federation identifier
+      source_url: Source URL
+  13. event_names_participants - Provides a summary of participation metrics for specific Olympic events, including the total number of athletes, participating National Olympic Committees (NOCs), and the current status of the competition for a given year.
+      id: Auto-increment primary key
+      event_name_id: Event name identifier
+      event_id: Event identifier
+      result_id: Result identifier
+      year: Year
+      event_name: Event name
+      status: Event status
+      participants: Number of participants
+      nocs: Participating countries
+      created_at: Creation timestamp
+      updated_at: Update timestamp
+  14. event_names_total_participants - Total participant information for specific Olympic events
+      id: Auto-increment primary key
+      event_name_id: Event name identifier (extracted from URL)
+      athlete_id: Athlete identifier
+      noc: National Olympic Committee code
+      athlete_name: Athlete name
+      roles: Roles
+      sports: Sports
+      era: Participation era
+      created_at: Creation timestamp
+      updated_at: Update timestamp
+  15. editions_top_competitors - Top performing athletes for each Olympic Games edition
+      id: Auto-increment primary key
+      edition_id: Edition identifier
+      athlete_id: Athlete identifier
+      athlete_name: Athlete name
+      noc_code: National Olympic Committee code
+      gold: Number of gold medals
+      silver: Number of silver medals
+      bronze: Number of bronze medals
+      total: Total number of medals
+      athlete_url: Athlete URL
+      created_at: Creation timestamp
+      updated_at: Update timestamp
+  16. ceremonies_coach_oath - Information about coaches who took the Olympic oath during opening ceremonies
+      id: Auto-increment primary key
+      competition_type: Competition type (Olympic Games, Youth Olympic Games, etc.)
+      edition_id: Edition identifier
+      season: Season type (Summer, Winter, Equestrian)
+      olympics_year: Olympics year
+      athlete: Coach name
+      athlete_id: Coach identifier
+      noc: National Olympic Committee code
+      sport: Sport
+      source_url: Data source URL
+      created_at: Creation timestamp
+  17. edition_sport_overview - Historical overview descriptions for Olympic Games editions
+      id: Auto-increment primary key
+      edition_id: Edition identifier
+      pid: Paragraph identifier
+      text: Historical description content
+      source_url: Source URL
+  18. edition_result - Results and event information for Olympic Games editions
+      id: Auto-increment primary key
+      edition_id: Edition identifier
+      page_title: Page title
+      sport_name: Sport name
+      event_name: Competition event name
+      category: Competition category
+      full_name: Full event name
+      result_id: Olympedia result page identifier
+      source_url: Source URL
+      created_at: Creation timestamp
+  19. place_names - Geographical place names associated with the Olympics
+      id: Auto-increment primary key
+      place_url_id: Olympedia official place ID
+      name: Place name
+      admin_division: Administrative division/state/province
+      country_name: Country full name
+      country_noc: Country code
+  20. event_names_medal_winners - Medal winners for specific Olympic events by year
+      id: Auto-increment primary key
+      event_id: Event identifier
+      year: Year
+      result_id: Result identifier
+      gold_athlete: Gold medal winner
+      gold_noc: Gold medal country code
+      gold_athlete_id: Gold medal athlete identifier
+      silver_athlete: Silver medal winner
+      silver_noc: Silver medal country code
+      silver_athlete_id: Silver medal athlete identifier
+      bronze_athlete: Bronze medal winner
+      bronze_noc: Bronze medal country code
+      bronze_athlete_id: Bronze medal athlete identifier
+      created_at: Creation timestamp
+      updated_at: Update timestamp
+  21. athlete_other_participations - Other Olympic participations by athletes in non-competitive roles
+      id: Auto-increment primary key
+      athlete_id: Athlete unique identifier
+      games: Olympic Games name
+      edition_id: Olympic Games edition ID
+      role: Role description
+      role_id: Role identifier
+      noc: National Olympic Committee code
+      as_name: Former or alternate name
+      nationality: Nationality
+  22. sport_group_top_athletes - Top athletes for sport groups
+      id: Auto-increment primary key
+      group: Group name
+      group_id: Group identifier
+      athlete: Athlete name
+      athlete_id: Athlete identifier
+      nation: Nation
+      nation_id: Nation identifier
+      gold: Number of gold medals
+      silver: Number of silver medals
+      bronze: Number of bronze medals
+      total: Total number of medals
+      url: URL
+  23. event_names_best_performance_bycountry - Best performance by country for specific Olympic events
+      id: Auto-increment primary key
+      event_id: Event identifier
+      country_name: Country name
+      country_code: Country code
+      games: Games name
+      edition_id: Edition identifier
+      athlete_team: Athlete or team name
+      athlete_id: Athlete identifier
+      placement: Position or placement
+      result_id: Result identifier
+      medal: Medal type
+      created_at: Creation timestamp
+      updated_at: Update timestamp
+  24. event_names_top_medallists - Top medalists for specific Olympic events
+      id: Auto-increment primary key
+      event_id: Event identifier
+      athlete_name: Athlete name
+      athlete_id: Athlete identifier
+      noc: National Olympic Committee code
+      gold: Number of gold medals
+      silver: Number of silver medals
+      bronze: Number of bronze medals
+      total: Total number of medals
+      created_at: Creation timestamp
+      updated_at: Update timestamp
+  25. event_names_countries - Country participation in specific Olympic events
+      id: Auto-increment primary key
+      event_id: Event identifier
+      noc: National Olympic Committee code
+      edition_id: Olympic Games edition identifier
+      athlete_id: Athlete identifier
+      result_id: Result identifier
+      page_title: Page title
+      game: Games name
+      athlete_team: Athlete or team name
+      placement: Position or placement
+      medal: Medal type
+      source_url: Data source URL
+      created_at: Creation timestamp
+      updated_at: Update timestamp
+============================================================
+
+[中间过程] user_prompt:
+请基于下列输入返回 JSON：
+{
+  "question": "Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games",
+  "k": 8,
+  "rerank_top25": [
+  {
+    "table_name": "country_most_successful_competitors",
+    "description": "Description: Most successful competitors for each country in Olympic history\nTable name: country_most_successful_competitors\nCategory: country\nKeywords: country, competitor, successful, medal, top athlete",
+    "table_description": "Most successful competitors for each country in Olympic history",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "noc",
+        "desc": "National Olympic Committee code"
+      },
+      {
+        "name": "competition_type",
+        "desc": "Competition type"
+      },
+      {
+        "name": "athlete",
+        "desc": "Competitor name"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Competitor identifier"
+      },
+      {
+        "name": "nat",
+        "desc": "Country code (multiple if applicable, separated by #)"
+      },
+      {
+        "name": "gold",
+        "desc": "Number of gold medals"
+      },
+      {
+        "name": "silver",
+        "desc": "Number of silver medals"
+      },
+      {
+        "name": "bronze",
+        "desc": "Number of bronze medals"
+      },
+      {
+        "name": "total",
+        "desc": "Total number of medals"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      }
+    ]
+  },
+  {
+    "table_name": "country_sport_result",
+    "description": "Description: Results achieved by countries in specific sports and events\nTable name: country_sport_result\nCategory: country\nKeywords: country, sport, result, medal",
+    "table_description": "Results achieved by countries in specific sports and events",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "page_title",
+        "desc": "Page title"
+      },
+      {
+        "name": "noc",
+        "desc": "National Olympic Committee code"
+      },
+      {
+        "name": "sport_id",
+        "desc": "Sport identifier"
+      },
+      {
+        "name": "competition_type",
+        "desc": "Competition type"
+      },
+      {
+        "name": "edition_name",
+        "desc": "Edition name"
+      },
+      {
+        "name": "result_id",
+        "desc": "Result identifier"
+      },
+      {
+        "name": "athlete",
+        "desc": "Athlete name"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "result",
+        "desc": "Result details"
+      },
+      {
+        "name": "medal",
+        "desc": "Medal type"
+      }
+    ]
+  },
+  {
+    "table_name": "olympics_athletes_infobox",
+    "description": "Description: Basic information about Olympic athletes\nTable name: olympics_athletes_infobox\nCategory: athlete\nKeywords: athlete, basic info, personal info, olympics",
+    "table_description": "Basic information about Olympic athletes",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Unique identifier"
+      },
+      {
+        "name": "source",
+        "desc": "Data source"
+      },
+      {
+        "name": "name",
+        "desc": "Name"
+      },
+      {
+        "name": "year_of_birth",
+        "desc": "Year of birth"
+      },
+      {
+        "name": "country",
+        "desc": "Country or region"
+      },
+      {
+        "name": "games_participations",
+        "desc": "Number of Olympic Games participated in"
+      },
+      {
+        "name": "first_olympic_games",
+        "desc": "First Olympic Games participated in"
+      },
+      {
+        "name": "gender",
+        "desc": "Gender (M/F)"
+      },
+      {
+        "name": "disciplines",
+        "desc": "Sports disciplines (comma-separated)"
+      },
+      {
+        "name": "gold_count",
+        "desc": "Number of gold medals"
+      },
+      {
+        "name": "silver_count",
+        "desc": "Number of silver medals"
+      },
+      {
+        "name": "bronze_count",
+        "desc": "Number of bronze medals"
+      }
+    ]
+  },
+  {
+    "table_name": "sport_top_athletes",
+    "description": "Description: Top athletes by sport\nTable name: sport_top_athletes\nCategory: sport\nKeywords: sport, top athlete, medal, champion",
+    "table_description": "Top athletes by sport",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "sport",
+        "desc": "Sport name"
+      },
+      {
+        "name": "sport_id",
+        "desc": "Sport identifier"
+      },
+      {
+        "name": "athlete",
+        "desc": "Athlete name"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "nation",
+        "desc": "Nation"
+      },
+      {
+        "name": "nation_id",
+        "desc": "Nation identifier"
+      },
+      {
+        "name": "gold",
+        "desc": "Number of gold medals"
+      },
+      {
+        "name": "silver",
+        "desc": "Number of silver medals"
+      },
+      {
+        "name": "bronze",
+        "desc": "Number of bronze medals"
+      },
+      {
+        "name": "total",
+        "desc": "Total number of medals"
+      },
+      {
+        "name": "source_url",
+        "desc": "Source URL"
+      }
+    ]
+  },
+  {
+    "table_name": "olympics_athlete_biographies",
+    "description": "Description: Biographical text information for Olympic athletes\nTable name: olympics_athlete_biographies\nCategory: athlete\nKeywords: athlete, biography, bio, personal history",
+    "table_description": "Biographical text information for Olympic athletes",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Unique identifier"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "passage_id",
+        "desc": "Passage identifier"
+      },
+      {
+        "name": "text",
+        "desc": "Text content"
+      }
+    ]
+  },
+  {
+    "table_name": "athlete_olympic_records",
+    "description": "Description: Olympic records held by athletes, including event details and performance marks\nTable name: athlete_olympic_records\nCategory: athlete\nKeywords: athlete, record, olympic, performance",
+    "table_description": "Olympic records held by athletes, including event details and performance marks",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete unique identifier"
+      },
+      {
+        "name": "games",
+        "desc": "Olympic Games name"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Olympic Games edition ID"
+      },
+      {
+        "name": "date",
+        "desc": "Date of record"
+      },
+      {
+        "name": "sport",
+        "desc": "Sport name"
+      },
+      {
+        "name": "sport_group",
+        "desc": "Sport group or discipline"
+      },
+      {
+        "name": "sport_id",
+        "desc": "Sport identifier"
+      },
+      {
+        "name": "sport_group_id",
+        "desc": "Sport group identifier"
+      },
+      {
+        "name": "event",
+        "desc": "Specific competition event"
+      },
+      {
+        "name": "event_name_id",
+        "desc": "Event name identifier"
+      },
+      {
+        "name": "phase",
+        "desc": "Competition phase"
+      },
+      {
+        "name": "mark",
+        "desc": "Record or performance mark"
+      },
+      {
+        "name": "result_id",
+        "desc": "Result identifier"
+      },
+      {
+        "name": "pos",
+        "desc": "Position or ranking"
+      }
+    ]
+  },
+  {
+    "table_name": "edition_sport_medal",
+    "description": "Description: Medal winners for sport events in Olympic Games editions\nTable name: edition_sport_medal\nCategory: edition\nKeywords: edition, medal, winner, podium",
+    "table_description": "Medal winners for sport events in Olympic Games editions",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Edition identifier (from URL)"
+      },
+      {
+        "name": "sport_event",
+        "desc": "Competition event name"
+      },
+      {
+        "name": "result_id",
+        "desc": "Result identifier"
+      },
+      {
+        "name": "gold",
+        "desc": "Gold medal winner"
+      },
+      {
+        "name": "gold_noc",
+        "desc": "Gold medal country code"
+      },
+      {
+        "name": "gold_athletes_id",
+        "desc": "Gold medal athlete identifier"
+      },
+      {
+        "name": "silver",
+        "desc": "Silver medal winner"
+      },
+      {
+        "name": "silver_noc",
+        "desc": "Silver medal country code"
+      },
+      {
+        "name": "silver_athletes_id",
+        "desc": "Silver medal athlete identifier"
+      },
+      {
+        "name": "bronze",
+        "desc": "Bronze medal winner"
+      },
+      {
+        "name": "bronze_noc",
+        "desc": "Bronze medal country code"
+      },
+      {
+        "name": "bronze_athletes_id",
+        "desc": "Bronze medal athlete identifier"
+      },
+      {
+        "name": "source_url",
+        "desc": "Source URL"
+      }
+    ]
+  },
+  {
+    "table_name": "country_edition_result",
+    "description": "Description: Results achieved by countries in specific Olympic Games editions\nTable name: country_edition_result\nCategory: country\nKeywords: country, result, edition, medal, competition",
+    "table_description": "Results achieved by countries in specific Olympic Games editions",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "page_title",
+        "desc": "Page title"
+      },
+      {
+        "name": "noc",
+        "desc": "National Olympic Committee code"
+      },
+      {
+        "name": "sport",
+        "desc": "Sport name"
+      },
+      {
+        "name": "result_id",
+        "desc": "Result identifier"
+      },
+      {
+        "name": "athlete",
+        "desc": "Athlete name"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Edition identifier"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "result",
+        "desc": "Result details"
+      },
+      {
+        "name": "medal",
+        "desc": "Medal type"
+      }
+    ]
+  },
+  {
+    "table_name": "olympic_athlete_results",
+    "description": "Description: Competition results for Olympic athletes\nTable name: olympic_athlete_results\nCategory: athlete\nKeywords: athlete, result, competition, medal",
+    "table_description": "Competition results for Olympic athletes",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Unique identifier"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "games",
+        "desc": "Olympic Games name"
+      },
+      {
+        "name": "team",
+        "desc": "Team code (NOC)"
+      },
+      {
+        "name": "discipline",
+        "desc": "Sport discipline"
+      },
+      {
+        "name": "event",
+        "desc": "Specific event"
+      },
+      {
+        "name": "position",
+        "desc": "Position or ranking"
+      },
+      {
+        "name": "medal",
+        "desc": "Medal type (GOLD, SILVER, BRONZE, -)"
+      }
+    ]
+  },
+  {
+    "table_name": "editions_medal_details",
+    "description": "Description: Detailed medal information for Olympic Games editions by sport and event\nTable name: editions_medal_details\nCategory: edition\nKeywords: edition, medal, winner, podium",
+    "table_description": "Detailed medal information for Olympic Games editions by sport and event",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Edition identifier"
+      },
+      {
+        "name": "sport_event",
+        "desc": "Sport event name"
+      },
+      {
+        "name": "event",
+        "desc": "Specific event name"
+      },
+      {
+        "name": "gold",
+        "desc": "Gold medal winner"
+      },
+      {
+        "name": "gold_noc",
+        "desc": "Gold medal country code"
+      },
+      {
+        "name": "silver",
+        "desc": "Silver medal winner"
+      },
+      {
+        "name": "silver_noc",
+        "desc": "Silver medal country code"
+      },
+      {
+        "name": "bronze",
+        "desc": "Bronze medal winner"
+      },
+      {
+        "name": "bronze_noc",
+        "desc": "Bronze medal country code"
+      },
+      {
+        "name": "source_url",
+        "desc": "Source URL"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      }
+    ]
+  },
+  {
+    "table_name": "edition_sport_events",
+    "description": "Description: Sport events held during Olympic Games editions\nTable name: edition_sport_events\nCategory: edition\nKeywords: edition, event, sport, competition",
+    "table_description": "Sport events held during Olympic Games editions",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Edition identifier"
+      },
+      {
+        "name": "result_id",
+        "desc": "Result identifier"
+      },
+      {
+        "name": "event_name",
+        "desc": "Event name"
+      },
+      {
+        "name": "participants",
+        "desc": "Number of participants"
+      },
+      {
+        "name": "nocs_count",
+        "desc": "Number of participating countries"
+      },
+      {
+        "name": "status",
+        "desc": "Event status"
+      },
+      {
+        "name": "date",
+        "desc": "Event dates"
+      },
+      {
+        "name": "source_url",
+        "desc": "Source URL"
+      }
+    ]
+  },
+  {
+    "table_name": "sports",
+    "description": "Description: Olympic sports information\nTable name: sports\nCategory: sport\nKeywords: sport, discipline, competition, olympics",
+    "table_description": "Olympic sports information",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "sport_id",
+        "desc": "Sport identifier"
+      },
+      {
+        "name": "sport",
+        "desc": "Sport name"
+      },
+      {
+        "name": "discipline_of",
+        "desc": "Discipline of"
+      },
+      {
+        "name": "group_id",
+        "desc": "Group identifier"
+      },
+      {
+        "name": "participants",
+        "desc": "Number of participants"
+      },
+      {
+        "name": "nocs",
+        "desc": "Number of NOCs"
+      },
+      {
+        "name": "competitions_held",
+        "desc": "Number of competitions held"
+      },
+      {
+        "name": "distinct_events",
+        "desc": "Number of distinct events"
+      },
+      {
+        "name": "if_name",
+        "desc": "International Federation name"
+      },
+      {
+        "name": "if_id",
+        "desc": "International Federation identifier"
+      },
+      {
+        "name": "source_url",
+        "desc": "Source URL"
+      }
+    ]
+  },
+  {
+    "table_name": "event_names_participants",
+    "description": "Description: Participant information for specific Olympic events\nTable name: event_names_participants\nCategory: event\nKeywords: event, participant, competition",
+    "table_description": "Provides a summary of participation metrics for specific Olympic events, including the total number of athletes, participating National Olympic Committees (NOCs), and the current status of the competition for a given year.",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "event_name_id",
+        "desc": "Event name identifier"
+      },
+      {
+        "name": "event_id",
+        "desc": "Event identifier"
+      },
+      {
+        "name": "result_id",
+        "desc": "Result identifier"
+      },
+      {
+        "name": "year",
+        "desc": "Year"
+      },
+      {
+        "name": "event_name",
+        "desc": "Event name"
+      },
+      {
+        "name": "status",
+        "desc": "Event status"
+      },
+      {
+        "name": "participants",
+        "desc": "Number of participants"
+      },
+      {
+        "name": "nocs",
+        "desc": "Participating countries"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      },
+      {
+        "name": "updated_at",
+        "desc": "Update timestamp"
+      }
+    ]
+  },
+  {
+    "table_name": "event_names_total_participants",
+    "description": "Description: Total participant information for specific Olympic events\nTable name: event_names_total_participants\nCategory: event\nKeywords: event, participant, athlete",
+    "table_description": "Total participant information for specific Olympic events",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "event_name_id",
+        "desc": "Event name identifier (extracted from URL)"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "noc",
+        "desc": "National Olympic Committee code"
+      },
+      {
+        "name": "athlete_name",
+        "desc": "Athlete name"
+      },
+      {
+        "name": "roles",
+        "desc": "Roles"
+      },
+      {
+        "name": "sports",
+        "desc": "Sports"
+      },
+      {
+        "name": "era",
+        "desc": "Participation era"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      },
+      {
+        "name": "updated_at",
+        "desc": "Update timestamp"
+      }
+    ]
+  },
+  {
+    "table_name": "editions_top_competitors",
+    "description": "Description: Top performing athletes for each Olympic Games edition\nTable name: editions_top_competitors\nCategory: edition\nKeywords: edition, competitor, top athlete, medal",
+    "table_description": "Top performing athletes for each Olympic Games edition",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Edition identifier"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "athlete_name",
+        "desc": "Athlete name"
+      },
+      {
+        "name": "noc_code",
+        "desc": "National Olympic Committee code"
+      },
+      {
+        "name": "gold",
+        "desc": "Number of gold medals"
+      },
+      {
+        "name": "silver",
+        "desc": "Number of silver medals"
+      },
+      {
+        "name": "bronze",
+        "desc": "Number of bronze medals"
+      },
+      {
+        "name": "total",
+        "desc": "Total number of medals"
+      },
+      {
+        "name": "athlete_url",
+        "desc": "Athlete URL"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      },
+      {
+        "name": "updated_at",
+        "desc": "Update timestamp"
+      }
+    ]
+  },
+  {
+    "table_name": "ceremonies_coach_oath",
+    "description": "Description: Information about coaches who took the Olympic oath during opening ceremonies\nTable name: ceremonies_coach_oath\nCategory: ceremony\nKeywords: ceremony, oath, coach, opening ceremony",
+    "table_description": "Information about coaches who took the Olympic oath during opening ceremonies",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "competition_type",
+        "desc": "Competition type (Olympic Games, Youth Olympic Games, etc.)"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Edition identifier"
+      },
+      {
+        "name": "season",
+        "desc": "Season type (Summer, Winter, Equestrian)"
+      },
+      {
+        "name": "olympics_year",
+        "desc": "Olympics year"
+      },
+      {
+        "name": "athlete",
+        "desc": "Coach name"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Coach identifier"
+      },
+      {
+        "name": "noc",
+        "desc": "National Olympic Committee code"
+      },
+      {
+        "name": "sport",
+        "desc": "Sport"
+      },
+      {
+        "name": "source_url",
+        "desc": "Data source URL"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      }
+    ]
+  },
+  {
+    "table_name": "edition_sport_overview",
+    "description": "Description: Historical overview descriptions for Olympic Games editions\nTable name: edition_sport_overview\nCategory: edition\nKeywords: edition, overview, history, description",
+    "table_description": "Historical overview descriptions for Olympic Games editions",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Edition identifier"
+      },
+      {
+        "name": "pid",
+        "desc": "Paragraph identifier"
+      },
+      {
+        "name": "text",
+        "desc": "Historical description content"
+      },
+      {
+        "name": "source_url",
+        "desc": "Source URL"
+      }
+    ]
+  },
+  {
+    "table_name": "edition_result",
+    "description": "Description: Results and event information for Olympic Games editions\nTable name: edition_result\nCategory: edition\nKeywords: edition, result, event, competition",
+    "table_description": "Results and event information for Olympic Games editions",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Edition identifier"
+      },
+      {
+        "name": "page_title",
+        "desc": "Page title"
+      },
+      {
+        "name": "sport_name",
+        "desc": "Sport name"
+      },
+      {
+        "name": "event_name",
+        "desc": "Competition event name"
+      },
+      {
+        "name": "category",
+        "desc": "Competition category"
+      },
+      {
+        "name": "full_name",
+        "desc": "Full event name"
+      },
+      {
+        "name": "result_id",
+        "desc": "Olympedia result page identifier"
+      },
+      {
+        "name": "source_url",
+        "desc": "Source URL"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      }
+    ]
+  },
+  {
+    "table_name": "place_names",
+    "description": "Description: Geographical place names associated with the Olympics\nTable name: place_names\nCategory: place\nKeywords: place, location, city, geography",
+    "table_description": "Geographical place names associated with the Olympics",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "place_url_id",
+        "desc": "Olympedia official place ID"
+      },
+      {
+        "name": "name",
+        "desc": "Place name"
+      },
+      {
+        "name": "admin_division",
+        "desc": "Administrative division/state/province"
+      },
+      {
+        "name": "country_name",
+        "desc": "Country full name"
+      },
+      {
+        "name": "country_noc",
+        "desc": "Country code"
+      }
+    ]
+  },
+  {
+    "table_name": "event_names_medal_winners",
+    "description": "Description: Medal winners for specific Olympic events by year\nTable name: event_names_medal_winners\nCategory: event\nKeywords: event, medal, winner, year",
+    "table_description": "Medal winners for specific Olympic events by year",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "event_id",
+        "desc": "Event identifier"
+      },
+      {
+        "name": "year",
+        "desc": "Year"
+      },
+      {
+        "name": "result_id",
+        "desc": "Result identifier"
+      },
+      {
+        "name": "gold_athlete",
+        "desc": "Gold medal winner"
+      },
+      {
+        "name": "gold_noc",
+        "desc": "Gold medal country code"
+      },
+      {
+        "name": "gold_athlete_id",
+        "desc": "Gold medal athlete identifier"
+      },
+      {
+        "name": "silver_athlete",
+        "desc": "Silver medal winner"
+      },
+      {
+        "name": "silver_noc",
+        "desc": "Silver medal country code"
+      },
+      {
+        "name": "silver_athlete_id",
+        "desc": "Silver medal athlete identifier"
+      },
+      {
+        "name": "bronze_athlete",
+        "desc": "Bronze medal winner"
+      },
+      {
+        "name": "bronze_noc",
+        "desc": "Bronze medal country code"
+      },
+      {
+        "name": "bronze_athlete_id",
+        "desc": "Bronze medal athlete identifier"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      },
+      {
+        "name": "updated_at",
+        "desc": "Update timestamp"
+      }
+    ]
+  },
+  {
+    "table_name": "athlete_other_participations",
+    "description": "Description: Other Olympic participations by athletes in non-competitive roles\nTable name: athlete_other_participations\nCategory: athlete\nKeywords: athlete, participation, role, olympics",
+    "table_description": "Other Olympic participations by athletes in non-competitive roles",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete unique identifier"
+      },
+      {
+        "name": "games",
+        "desc": "Olympic Games name"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Olympic Games edition ID"
+      },
+      {
+        "name": "role",
+        "desc": "Role description"
+      },
+      {
+        "name": "role_id",
+        "desc": "Role identifier"
+      },
+      {
+        "name": "noc",
+        "desc": "National Olympic Committee code"
+      },
+      {
+        "name": "as_name",
+        "desc": "Former or alternate name"
+      },
+      {
+        "name": "nationality",
+        "desc": "Nationality"
+      }
+    ]
+  },
+  {
+    "table_name": "sport_group_top_athletes",
+    "description": "Description: Top athletes for sport groups\nTable name: sport_group_top_athletes\nCategory: sport\nKeywords: sport, group, top athlete, medal",
+    "table_description": "Top athletes for sport groups",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "group",
+        "desc": "Group name"
+      },
+      {
+        "name": "group_id",
+        "desc": "Group identifier"
+      },
+      {
+        "name": "athlete",
+        "desc": "Athlete name"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "nation",
+        "desc": "Nation"
+      },
+      {
+        "name": "nation_id",
+        "desc": "Nation identifier"
+      },
+      {
+        "name": "gold",
+        "desc": "Number of gold medals"
+      },
+      {
+        "name": "silver",
+        "desc": "Number of silver medals"
+      },
+      {
+        "name": "bronze",
+        "desc": "Number of bronze medals"
+      },
+      {
+        "name": "total",
+        "desc": "Total number of medals"
+      },
+      {
+        "name": "url",
+        "desc": "URL"
+      }
+    ]
+  },
+  {
+    "table_name": "event_names_best_performance_bycountry",
+    "description": "Description: Best performance by country for specific Olympic events\nTable name: event_names_best_performance_bycountry\nCategory: event\nKeywords: event, performance, country, result",
+    "table_description": "Best performance by country for specific Olympic events",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "event_id",
+        "desc": "Event identifier"
+      },
+      {
+        "name": "country_name",
+        "desc": "Country name"
+      },
+      {
+        "name": "country_code",
+        "desc": "Country code"
+      },
+      {
+        "name": "games",
+        "desc": "Games name"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Edition identifier"
+      },
+      {
+        "name": "athlete_team",
+        "desc": "Athlete or team name"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "placement",
+        "desc": "Position or placement"
+      },
+      {
+        "name": "result_id",
+        "desc": "Result identifier"
+      },
+      {
+        "name": "medal",
+        "desc": "Medal type"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      },
+      {
+        "name": "updated_at",
+        "desc": "Update timestamp"
+      }
+    ]
+  },
+  {
+    "table_name": "event_names_top_medallists",
+    "description": "Description: Top medalists for specific Olympic events\nTable name: event_names_top_medallists\nCategory: event\nKeywords: event, medalist, top athlete, champion",
+    "table_description": "Top medalists for specific Olympic events",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "event_id",
+        "desc": "Event identifier"
+      },
+      {
+        "name": "athlete_name",
+        "desc": "Athlete name"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "noc",
+        "desc": "National Olympic Committee code"
+      },
+      {
+        "name": "gold",
+        "desc": "Number of gold medals"
+      },
+      {
+        "name": "silver",
+        "desc": "Number of silver medals"
+      },
+      {
+        "name": "bronze",
+        "desc": "Number of bronze medals"
+      },
+      {
+        "name": "total",
+        "desc": "Total number of medals"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      },
+      {
+        "name": "updated_at",
+        "desc": "Update timestamp"
+      }
+    ]
+  },
+  {
+    "table_name": "event_names_countries",
+    "description": "Description: Country participation in specific Olympic events\nTable name: event_names_countries\nCategory: event\nKeywords: event, country, participation, result",
+    "table_description": "Country participation in specific Olympic events",
+    "fields": [
+      {
+        "name": "id",
+        "desc": "Auto-increment primary key"
+      },
+      {
+        "name": "event_id",
+        "desc": "Event identifier"
+      },
+      {
+        "name": "noc",
+        "desc": "National Olympic Committee code"
+      },
+      {
+        "name": "edition_id",
+        "desc": "Olympic Games edition identifier"
+      },
+      {
+        "name": "athlete_id",
+        "desc": "Athlete identifier"
+      },
+      {
+        "name": "result_id",
+        "desc": "Result identifier"
+      },
+      {
+        "name": "page_title",
+        "desc": "Page title"
+      },
+      {
+        "name": "game",
+        "desc": "Games name"
+      },
+      {
+        "name": "athlete_team",
+        "desc": "Athlete or team name"
+      },
+      {
+        "name": "placement",
+        "desc": "Position or placement"
+      },
+      {
+        "name": "medal",
+        "desc": "Medal type"
+      },
+      {
+        "name": "source_url",
+        "desc": "Data source URL"
+      },
+      {
+        "name": "created_at",
+        "desc": "Creation timestamp"
+      },
+      {
+        "name": "updated_at",
+        "desc": "Update timestamp"
+      }
+    ]
+  }
+]
+}
+[中间过程] 调用模型: qwen-plus
+
+[中间过程] 模型原始输出:
+{
+  "question": "Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games",
+  "top_k_tables": [
+    "athlete_olympic_records",
+    "olympic_athlete_results",
+    "edition_sport_medal",
+    "event_names_medal_winners",
+    "sport_top_athletes",
+    "country_sport_result",
+    "editions_medal_details",
+    "event_names_top_medallists"
+  ],
+  "column_value_constraints": [
+    {
+      "table_name": "athlete_olympic_records",
+      "column": "sport",
+      "operator": "=",
+      "value": "Cycling"
+    },
+    {
+      "table_name": "olympic_athlete_results",
+      "column": "discipline",
+      "operator": "LIKE",
+      "value": "%Cycling%"
+    },
+    {
+      "table_name": "edition_sport_medal",
+      "column": "sport_event",
+      "operator": "LIKE",
+      "value": "%Cycling%"
+    },
+    {
+      "table_name": "event_names_medal_winners",
+      "column": "event_id",
+      "operator": "IS NOT NULL",
+      "value": null
+    }
+  ]
+}

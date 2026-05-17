@@ -1,0 +1,440 @@
+[
+  {
+    "table_name": "affiliations_athletes",
+    "description": "Association relationship between sports affiliations and athletes, linking organizations to the athletes affiliated with them",
+    "category": "affiliation",
+    "keywords": ["affiliation", "athlete", "organization", "member"]
+  },
+  {
+    "table_name": "affiliations_infobox",
+    "description": "Basic information about sports affiliations and organizations, including names, locations, and sports",
+    "category": "affiliation",
+    "keywords": ["affiliation", "organization", "location", "club"]
+  },
+  {
+    "table_name": "athlete_biography",
+    "description": "Biographical text information about athletes, organized by paragraph segments",
+    "category": "athlete",
+    "keywords": ["athlete", "biography", "bio", "personal history"]
+  },
+  {
+    "table_name": "athlete_infobox",
+    "description": "Core structured athlete information including personal details, affiliations, and vital statistics",
+    "category": "athlete",
+    "keywords": ["athlete", "personal info", "bio", "vital statistics"]
+  },
+  {
+    "table_name": "athlete_olympic_records",
+    "description": "Olympic records held by athletes, including event details and performance marks",
+    "category": "athlete",
+    "keywords": ["athlete", "record", "olympic", "performance"]
+  },
+  {
+    "table_name": "athlete_organization_roles",
+    "description": "Organizational roles held by athletes in sports bodies and committees",
+    "category": "athlete",
+    "keywords": ["athlete", "role", "organization", "committee", "position"]
+  },
+  {
+    "table_name": "athlete_other_participations",
+    "description": "Other Olympic participations by athletes in non-competitive roles",
+    "category": "athlete",
+    "keywords": ["athlete", "participation", "role", "olympics"]
+  },
+  {
+    "table_name": "athlete_results",
+    "description": "Competition results for athletes including placements and medal achievements",
+    "category": "athlete",
+    "keywords": ["athlete", "result", "competition", "medal", "ranking"]
+  },
+  {
+    "table_name": "ceremonies_coach_oath",
+    "description": "Information about coaches who took the Olympic oath during opening ceremonies",
+    "category": "ceremony",
+    "keywords": ["ceremony", "oath", "coach", "opening ceremony"]
+  },
+  {
+    "table_name": "ceremonies_official_oath",
+    "description": "Information about officials who took the Olympic oath during opening ceremonies",
+    "category": "ceremony",
+    "keywords": ["ceremony", "oath", "official", "opening ceremony"]
+  },
+  {
+    "table_name": "ceremonies_torch_bearers",
+    "description": "Information about Olympic torch bearers for various Olympic Games",
+    "category": "ceremony",
+    "keywords": ["ceremony", "torch bearer", "flame", "relay"]
+  },
+  {
+    "table_name": "country_description",
+    "description": "Descriptive text information about countries participating in the Olympics",
+    "category": "country",
+    "keywords": ["country", "description", "noc", "nation"]
+  },
+  {
+    "table_name": "country_edition",
+    "description": "Country participation statistics for each Olympic Games edition",
+    "category": "country",
+    "keywords": ["country", "participation", "edition", "games", "statistics"]
+  },
+  {
+    "table_name": "country_edition_result",
+    "description": "Results achieved by countries in specific Olympic Games editions",
+    "category": "country",
+    "keywords": ["country", "result", "edition", "medal", "competition"]
+  },
+  {
+    "table_name": "country_infobox",
+    "description": "Basic information about countries participating in the Olympics",
+    "category": "country",
+    "keywords": ["country", "noc", "organization", "basic info"]
+  },
+  {
+    "table_name": "country_medal_by_game",
+    "description": "Medal statistics for countries by Olympic Games edition",
+    "category": "country",
+    "keywords": ["country", "medal", "edition", "games", "statistics"]
+  },
+  {
+    "table_name": "country_medal_by_sport",
+    "description": "Medal statistics for countries by sport discipline",
+    "category": "country",
+    "keywords": ["country", "medal", "sport", "statistics"]
+  },
+  {
+    "table_name": "country_most_successful_competitors",
+    "description": "Most successful competitors for each country in Olympic history",
+    "category": "country",
+    "keywords": ["country", "competitor", "successful", "medal", "top athlete"]
+  },
+  {
+    "table_name": "country_participants",
+    "description": "Participant statistics for countries across different Olympic competitions",
+    "category": "country",
+    "keywords": ["country", "participant", "statistics", "competition"]
+  },
+  {
+    "table_name": "country_sport",
+    "description": "Country participation statistics by sport discipline",
+    "category": "country",
+    "keywords": ["country", "sport", "participation", "discipline"]
+  },
+  {
+    "table_name": "country_sport_result",
+    "description": "Results achieved by countries in specific sports and events",
+    "category": "country",
+    "keywords": ["country", "sport", "result", "medal"]
+  },
+  {
+    "table_name": "definitions",
+    "description": "Olympic-related definitions and explanatory content",
+    "category": "general",
+    "keywords": ["definition", "content", "explanation", "olympics"]
+  },
+  {
+    "table_name": "edition_countries",
+    "description": "Countries participating in specific Olympic Games editions",
+    "category": "edition",
+    "keywords": ["edition", "country", "participation", "games"]
+  },
+  {
+    "table_name": "edition_result",
+    "description": "Results and event information for Olympic Games editions",
+    "category": "edition",
+    "keywords": ["edition", "result", "event", "competition"]
+  },
+  {
+    "table_name": "edition_sport_events",
+    "description": "Sport events held during Olympic Games editions",
+    "category": "edition",
+    "keywords": ["edition", "event", "sport", "competition"]
+  },
+  {
+    "table_name": "edition_sport_info",
+    "description": "Sport information and details for Olympic Games editions",
+    "category": "edition",
+    "keywords": ["edition", "sport", "info", "venue"]
+  },
+  {
+    "table_name": "edition_sport_medal",
+    "description": "Medal winners for sport events in Olympic Games editions",
+    "category": "edition",
+    "keywords": ["edition", "medal", "winner", "podium"]
+  },
+  {
+    "table_name": "edition_sport_medal_table",
+    "description": "Medal table for sport events in Olympic Games editions",
+    "category": "edition",
+    "keywords": ["edition", "medal table", "standings", "ranking"]
+  },
+  {
+    "table_name": "edition_sport_overview",
+    "description": "Historical overview descriptions for Olympic Games editions",
+    "category": "edition",
+    "keywords": ["edition", "overview", "history", "description"]
+  },
+  {
+    "table_name": "editions_basic_info",
+    "description": "Basic information about Olympic Games editions",
+    "category": "edition",
+    "keywords": ["edition", "basic info", "olympics", "games"]
+  },
+  {
+    "table_name": "editions_bid_process",
+    "description": "Bid process information for Olympic Games host city selection",
+    "category": "edition",
+    "keywords": ["edition", "bid", "host city", "selection"]
+  },
+  {
+    "table_name": "editions_medal_details",
+    "description": "Detailed medal information for Olympic Games editions by sport and event",
+    "category": "edition",
+    "keywords": ["edition", "medal", "winner", "podium"]
+  },
+  {
+    "table_name": "editions_medal_table",
+    "description": "Medal table showing standings for Olympic Games editions",
+    "category": "edition",
+    "keywords": ["edition", "medal table", "standings", "ranking"]
+  },
+  {
+    "table_name": "editions_overview",
+    "description": "Overview text descriptions for Olympic Games editions",
+    "category": "edition",
+    "keywords": ["edition", "overview", "description", "history"]
+  },
+  {
+    "table_name": "editions_top_competitors",
+    "description": "Top performing athletes for each Olympic Games edition",
+    "category": "edition",
+    "keywords": ["edition", "competitor", "top athlete", "medal"]
+  },
+  {
+    "table_name": "event_names_basic_info",
+    "description": "Basic information about specific Olympic events",
+    "category": "event",
+    "keywords": ["event", "basic info", "competition", "participants"]
+  },
+  {
+    "table_name": "event_names_best_performance_bycountry",
+    "description": "Best performance by country for specific Olympic events",
+    "category": "event",
+    "keywords": ["event", "performance", "country", "result"]
+  },
+  {
+    "table_name": "event_names_countries",
+    "description": "Country participation in specific Olympic events",
+    "category": "event",
+    "keywords": ["event", "country", "participation", "result"]
+  },
+  {
+    "table_name": "event_names_medal_winners",
+    "description": "Medal winners for specific Olympic events by year",
+    "category": "event",
+    "keywords": ["event", "medal", "winner", "year"]
+  },
+  {
+    "table_name": "event_names_medals_by_country",
+    "description": "Medal counts by country for specific Olympic events",
+    "category": "event",
+    "keywords": ["event", "medal", "country", "statistics"]
+  },
+  {
+    "table_name": "event_names_participants",
+    "description": "Provides a summary of participation metrics for specific Olympic events, including the total number of athletes, participating National Olympic Committees (NOCs), and the current status of the competition for a given year.",
+    "category": "event",
+    "keywords": ["event", "participant", "competition"]
+  },
+  {
+    "table_name": "event_names_top_medallists",
+    "description": "Top medalists for specific Olympic events",
+    "category": "event",
+    "keywords": ["event", "medalist", "top athlete", "champion"]
+  },
+  {
+    "table_name": "event_names_total_participants",
+    "description": "Total participant information for specific Olympic events",
+    "category": "event",
+    "keywords": ["event", "participant", "athlete"]
+  },
+  {
+    "table_name": "event_total_participants",
+    "description": "Total participant information for Olympic events",
+    "category": "event",
+    "keywords": ["event", "participant", "athlete"]
+  },
+  {
+    "table_name": "events_non_starters",
+    "description": "Athletes who registered but did not compete in Olympic events",
+    "category": "event",
+    "keywords": ["event", "non-starter", "registered", "athlete"]
+  },
+  {
+    "table_name": "events_participants",
+    "description": "Participants in Olympic events",
+    "category": "event",
+    "keywords": ["event", "participant", "athlete", "competitor"]
+  },
+  {
+    "table_name": "flagbearers",
+    "description": "Flag bearers for countries during Olympic ceremonies",
+    "category": "ceremony",
+    "keywords": ["flag bearer", "ceremony", "parade", "athlete"]
+  },
+  {
+    "table_name": "horse_biography",
+    "description": "Biographical text information about Olympic horses",
+    "category": "horse",
+    "keywords": ["horse", "biography", "bio", "equestrian"]
+  },
+  {
+    "table_name": "horse_event_record",
+    "description": "Olympic competition records for horses",
+    "category": "horse",
+    "keywords": ["horse", "record", "event", "equestrian"]
+  },
+  {
+    "table_name": "horse_info",
+    "description": "Basic information about Olympic horses",
+    "category": "horse",
+    "keywords": ["horse", "info", "basic info", "equestrian"]
+  },
+  {
+    "table_name": "ioc_meetings",
+    "description": "International Olympic Committee (IOC) administrative meetings history",
+    "category": "organization",
+    "keywords": ["IOC", "meeting", "committee", "administrative"]
+  },
+  {
+    "table_name": "olympic_athlete_results",
+    "description": "Competition results for Olympic athletes",
+    "category": "athlete",
+    "keywords": ["athlete", "result", "competition", "medal"]
+  },
+  {
+    "table_name": "olympics_athlete_biographies",
+    "description": "Biographical text information for Olympic athletes",
+    "category": "athlete",
+    "keywords": ["athlete", "biography", "bio", "personal history"]
+  },
+  {
+    "table_name": "olympics_athletes_infobox",
+    "description": "Basic information about Olympic athletes",
+    "category": "athlete",
+    "keywords": ["athlete", "basic info", "personal info", "olympics"]
+  },
+  {
+    "table_name": "organizations",
+    "description": "Sports organizations and their basic information",
+    "category": "organization",
+    "keywords": ["organization", "federation", "committee", "body"]
+  },
+  {
+    "table_name": "organizations_members",
+    "description": "Members of sports organizations",
+    "category": "organization",
+    "keywords": ["organization", "member", "role", "personnel"]
+  },
+  {
+    "table_name": "organizations_presidents",
+    "description": "Presidents of sports organizations",
+    "category": "organization",
+    "keywords": ["organization", "president", "leadership", "head"]
+  },
+  {
+    "table_name": "place_names",
+    "description": "Geographical place names associated with the Olympics",
+    "category": "place",
+    "keywords": ["place", "location", "city", "geography"]
+  },
+  {
+    "table_name": "place_people_relations",
+    "description": "Relationships between places and people (birth/death locations)",
+    "category": "place",
+    "keywords": ["place", "athlete", "birth", "death", "relation"]
+  },
+  {
+    "table_name": "records_archery",
+    "description": "Olympic and world records for archery events",
+    "category": "record",
+    "keywords": ["record", "archery", "world record", "olympic record"]
+  },
+  {
+    "table_name": "records_short_track_speed_skating",
+    "description": "Olympic and world records for short track speed skating events",
+    "category": "record",
+    "keywords": ["record", "short track speed skating", "world record", "olympic record"]
+  },
+  {
+    "table_name": "records_ski_jumping",
+    "description": "Olympic and world records for ski jumping events",
+    "category": "record",
+    "keywords": ["record", "ski jumping", "world record", "olympic record"]
+  },
+  {
+    "table_name": "records_speed_skating",
+    "description": "Olympic and world records for speed skating events",
+    "category": "record",
+    "keywords": ["record", "speed skating", "world record", "olympic record"]
+  },
+  {
+    "table_name": "sport_events",
+    "description": "Sport events information",
+    "category": "sport",
+    "keywords": ["sport", "event", "competition"]
+  },
+  {
+    "table_name": "sport_group_events",
+    "description": "Sport group events information",
+    "category": "sport",
+    "keywords": ["sport", "group", "event", "discipline"]
+  },
+  {
+    "table_name": "sport_group_medals",
+    "description": "Medal statistics for sport groups",
+    "category": "sport",
+    "keywords": ["sport", "group", "medal", "statistics"]
+  },
+  {
+    "table_name": "sport_group_top_athletes",
+    "description": "Top athletes for sport groups",
+    "category": "sport",
+    "keywords": ["sport", "group", "top athlete", "medal"]
+  },
+  {
+    "table_name": "sport_groups",
+    "description": "Sport groups information",
+    "category": "sport",
+    "keywords": ["sport", "group", "discipline", "category"]
+  },
+  {
+    "table_name": "sport_medals",
+    "description": "Medal statistics by sport",
+    "category": "sport",
+    "keywords": ["sport", "medal", "statistics", "country"]
+  },
+  {
+    "table_name": "sport_top_athletes",
+    "description": "Top athletes by sport",
+    "category": "sport",
+    "keywords": ["sport", "top athlete", "medal", "champion"]
+  },
+  {
+    "table_name": "sports",
+    "description": "Olympic sports information",
+    "category": "sport",
+    "keywords": ["sport", "discipline", "competition", "olympics"]
+  },
+  {
+    "table_name": "venue_events_relations",
+    "description": "Relationships between venues and the events they host",
+    "category": "venue",
+    "keywords": ["venue", "event", "host", "location"]
+  },
+  {
+    "table_name": "venues",
+    "description": "Basic information about Olympic competition venues",
+    "category": "venue",
+    "keywords": ["venue", "stadium", "arena", "facility"]
+  }
+]

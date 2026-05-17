@@ -1,0 +1,302 @@
+======================================================================
+Olympic 检索结果分析报告
+======================================================================
+
+总问题数: 398
+
+======================================================================
+1. 基础统计
+======================================================================
+
+--- Similarity Top40 得分 ---
+  Top1 得分:  均值=0.3977, 中位数=0.3926, 最小=0.1994, 最大=0.6217
+  Top40 得分: 均值=0.2993, 中位数=0.2919, 最小=0.1481, 最大=0.5204
+  平均得分:   均值=0.3300, 中位数=0.3211
+
+--- Rerank Top25 得分 ---
+  Top1 得分:  均值=0.006243, 中位数=0.002019, 最小=0.000039, 最大=0.163187
+  Top25 得分: 均值=0.000434, 中位数=0.000265, 最小=0.000037, 最大=0.005594
+  平均得分:   均值=0.001151, 中位数=0.000662
+
+======================================================================
+2. 表频次分析
+======================================================================
+
+--- Similarity Top1 最常命中的表 (Top15) ---
+  editions_top_competitors: 67 (16.8%)
+  edition_sport_medal: 26 (6.5%)
+  athlete_olympic_records: 25 (6.3%)
+  country_most_successful_competitors: 24 (6.0%)
+  flagbearers: 21 (5.3%)
+  editions_bid_process: 19 (4.8%)
+  country_medal_by_game: 16 (4.0%)
+  event_names_medal_winners: 15 (3.8%)
+  ceremonies_coach_oath: 11 (2.8%)
+  country_sport_result: 11 (2.8%)
+  olympics_athletes_infobox: 10 (2.5%)
+  events_non_starters: 10 (2.5%)
+  edition_sport_events: 9 (2.3%)
+  event_names_top_medallists: 9 (2.3%)
+  sports: 8 (2.0%)
+
+--- Rerank Top1 最常命中的表 (Top15) ---
+  event_names_basic_info: 44 (11.1%)
+  athlete_other_participations: 32 (8.0%)
+  country_sport_result: 31 (7.8%)
+  athlete_olympic_records: 26 (6.5%)
+  olympics_athletes_infobox: 25 (6.3%)
+  country_most_successful_competitors: 24 (6.0%)
+  athlete_infobox: 16 (4.0%)
+  editions_bid_process: 15 (3.8%)
+  place_names: 15 (3.8%)
+  country_description: 15 (3.8%)
+  flagbearers: 14 (3.5%)
+  editions_medal_details: 13 (3.3%)
+  edition_sport_medal: 13 (3.3%)
+  country_infobox: 10 (2.5%)
+  ceremonies_torch_bearers: 9 (2.3%)
+
+--- Similarity Top40 中出现频次最高的表 (Top15) ---
+  country_edition_result: 389 (出现在 97.7% 的问题中)
+  country_medal_by_game: 378 (出现在 95.0% 的问题中)
+  editions_top_competitors: 377 (出现在 94.7% 的问题中)
+  edition_sport_medal: 377 (出现在 94.7% 的问题中)
+  event_names_top_medallists: 371 (出现在 93.2% 的问题中)
+  edition_sport_medal_table: 369 (出现在 92.7% 的问题中)
+  country_most_successful_competitors: 366 (出现在 92.0% 的问题中)
+  olympic_athlete_results: 363 (出现在 91.2% 的问题中)
+  athlete_olympic_records: 361 (出现在 90.7% 的问题中)
+  country_edition: 358 (出现在 89.9% 的问题中)
+  event_names_best_performance_bycountry: 350 (出现在 87.9% 的问题中)
+  country_participants: 344 (出现在 86.4% 的问题中)
+  olympics_athletes_infobox: 342 (出现在 85.9% 的问题中)
+  editions_medal_details: 340 (出现在 85.4% 的问题中)
+  edition_countries: 329 (出现在 82.7% 的问题中)
+
+--- Rerank Top25 中出现频次最高的表 (Top15) ---
+  country_edition_result: 352 (出现在 88.4% 的问题中)
+  olympics_athletes_infobox: 341 (出现在 85.7% 的问题中)
+  event_names_total_participants: 311 (出现在 78.1% 的问题中)
+  athlete_olympic_records: 309 (出现在 77.6% 的问题中)
+  editions_medal_details: 307 (出现在 77.1% 的问题中)
+  country_sport_result: 305 (出现在 76.6% 的问题中)
+  olympic_athlete_results: 303 (出现在 76.1% 的问题中)
+  event_names_top_medallists: 278 (出现在 69.8% 的问题中)
+  olympics_athlete_biographies: 277 (出现在 69.6% 的问题中)
+  edition_sport_info: 276 (出现在 69.3% 的问题中)
+  editions_top_competitors: 251 (出现在 63.1% 的问题中)
+  event_names_basic_info: 249 (出现在 62.6% 的问题中)
+  event_total_participants: 245 (出现在 61.6% 的问题中)
+  edition_result: 242 (出现在 60.8% 的问题中)
+  edition_sport_overview: 228 (出现在 57.3% 的问题中)
+
+======================================================================
+3. Similarity vs Rerank 排序变化分析
+======================================================================
+  Top1 一致: 94 (23.6%)
+  Top1 变化: 304 (76.4%)
+
+  Similarity Top1 在 Rerank 中的排名位置:
+    仍在Top1: 94 (26.6%)
+    降至Top5: 174 (49.3%)
+    降至Top10: 224 (63.5%)
+    掉出Top25: 45 (11.3%)
+
+======================================================================
+4. Rerank 提升最大和下降最大的表
+======================================================================
+
+--- Rerank 提升最频繁的表 (Top10) ---
+  olympics_athletes_infobox: 提升281次, 平均提升14.2位
+  event_names_total_participants: 提升256次, 平均提升12.0位
+  editions_medal_details: 提升254次, 平均提升11.7位
+  edition_sport_info: 提升238次, 平均提升16.9位
+  country_sport_result: 提升236次, 平均提升14.0位
+  event_names_basic_info: 提升232次, 平均提升20.3位
+  olympics_athlete_biographies: 提升222次, 平均提升14.0位
+  edition_result: 提升215次, 平均提升15.4位
+  event_names_participants: 提升202次, 平均提升16.7位
+  athlete_results: 提升199次, 平均提升17.1位
+
+--- Rerank 下降最频繁的表 (Top10) ---
+  country_edition_result: 下降227次, 平均下降7.1位
+  editions_top_competitors: 下降204次, 平均下降11.8位
+  event_names_top_medallists: 下降170次, 平均下降8.3位
+  athlete_olympic_records: 下降134次, 平均下降6.6位
+  country_medal_by_game: 下降128次, 平均下降9.9位
+  edition_sport_medal: 下降123次, 平均下降8.7位
+  country_most_successful_competitors: 下降119次, 平均下降10.9位
+  olympic_athlete_results: 下降117次, 平均下降8.2位
+  event_total_participants: 下降98次, 平均下降6.2位
+  event_names_best_performance_bycountry: 下降92次, 平均下降8.2位
+
+======================================================================
+5. Similarity Top1 得分分布
+======================================================================
+  [0.0, 0.2): 1 (0.3%)
+  [0.2, 0.3): 32 (8.0%)
+  [0.3, 0.4): 181 (45.5%)
+  [0.4, 0.5): 151 (37.9%)
+  [0.5, 0.6): 25 (6.3%)
+  [0.6, 0.7): 8 (2.0%)
+  [0.7, 0.8): 0 (0.0%)
+  [0.8, 1.0): 0 (0.0%)
+
+======================================================================
+6. Rerank Top1 得分分布
+======================================================================
+  [0, 0.001): 122 (30.7%)
+  [0.001, 0.005): 151 (37.9%)
+  [0.005, 0.01): 48 (12.1%)
+  [0.01, 0.05): 71 (17.8%)
+  [0.05, 0.1): 4 (1.0%)
+  [0.1, 0.5): 2 (0.5%)
+  [0.5, 1.0): 0 (0.0%)
+
+======================================================================
+7. Similarity Top1 得分最低的10个问题
+======================================================================
+  [0.1994] Q: Dick Williams, who won gold in the tennis mixed doubles at Paris in 1924, was a 
+         SimTop1: place_people_relations | RerankTop1: country_sport_result
+  [0.2155] Q: Which song did Jimmy Page and Leona Lewis perform outside a London bus at the 20
+         SimTop1: ceremonies_coach_oath | RerankTop1: ceremonies_torch_bearers
+  [0.2262] Q: Which Swedish future world heavyweight boxing champion was disqualified from the
+         SimTop1: editions_top_competitors | RerankTop1: athlete_infobox
+  [0.2376] Q: Which sports car manufacturer made the bicycle on which Chris Boardman won the 4
+         SimTop1: horse_biography | RerankTop1: athlete_infobox
+  [0.2455] Q: Which co-founder of the London Marathon won the 3,000m steeplechase gold medal a
+         SimTop1: edition_sport_medal | RerankTop1: event_names_basic_info
+  [0.2477] Q: Who won the 400m freestyle swimming at the 1932 Los Angeles Games before embarki
+         SimTop1: athlete_other_participations | RerankTop1: event_names_basic_info
+  [0.2531] Q: Weightlifter Harold Sakata, who won the light heavyweight silver at London in 19
+         SimTop1: athlete_other_participations | RerankTop1: athlete_infobox
+  [0.2550] Q: Which great Finnish runner won both the 1,500m and 5,000m at Paris in 1924 even 
+         SimTop1: olympic_athlete_results | RerankTop1: country_sport_result
+  [0.2556] Q: What was the name of the Palestinian terrorist group who blighted the Munich gam
+         SimTop1: sport_group_medals | RerankTop1: country_description
+  [0.2625] Q: Who crashed out in tears of the women's 3,000m at Los Angeles in 1984 after trip
+         SimTop1: place_people_relations | RerankTop1: athlete_biography
+
+======================================================================
+8. Similarity Top1 得分最高的10个问题
+======================================================================
+  [0.6217] Q: Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual
+         Top1表: edition_sport_medal
+  [0.6213] Q: Olympic Fencers - Winning Medals, Foil/Épée, Individual
+         Top1表: edition_sport_medal
+  [0.6179] Q: Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre
+         Top1表: edition_sport_medal
+  [0.6113] Q: Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual
+         Top1表: edition_sport_medal
+  [0.6077] Q: Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event
+         Top1表: horse_event_record
+  [0.6071] Q: Olympic Equestrian Riders - Winning Medals in Dressage and Jumping
+         Top1表: horse_event_record
+  [0.6060] Q: Olympic Fencers - Winning Medals, Foil/Sabre, Individual
+         Top1表: event_names_medal_winners
+  [0.6015] Q: Olympic Fencers - Winning Medals, Épée/Sabre, Individual
+         Top1表: event_names_medal_winners
+  [0.5966] Q: Olympic Divers - Individual Double Champions, Different Years
+         Top1表: event_names_medal_winners
+  [0.5957] Q: Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual
+         Top1表: edition_sport_medal
+
+======================================================================
+9. 表覆盖率
+======================================================================
+  总共涉及的表: 73
+  作为 Similarity Top1 的表: 51
+  作为 Rerank Top1 的表: 46
+  出现在 Similarity Top40 的表: 73
+  出现在 Rerank Top25 的表: 73
+
+  从未被Similarity Top1命中的表 (22):
+    affiliations_athletes: 在top40中出现45次
+    affiliations_infobox: 在top40中出现7次
+    athlete_biography: 在top40中出现88次
+    athlete_infobox: 在top40中出现73次
+    athlete_organization_roles: 在top40中出现53次
+    definitions: 在top40中出现128次
+    edition_countries: 在top40中出现329次
+    edition_result: 在top40中出现268次
+    edition_sport_info: 在top40中出现280次
+    editions_overview: 在top40中出现144次
+    event_names_countries: 在top40中出现242次
+    event_names_medals_by_country: 在top40中出现322次
+    event_names_participants: 在top40中出现226次
+    event_names_total_participants: 在top40中出现327次
+    events_participants: 在top40中出现276次
+    horse_info: 在top40中出现46次
+    ioc_meetings: 在top40中出现28次
+    organizations: 在top40中出现6次
+    organizations_presidents: 在top40中出现15次
+    sport_group_events: 在top40中出现37次
+    sport_groups: 在top40中出现19次
+    venue_events_relations: 在top40中出现10次
+
+======================================================================
+10. 按 Category 分组的检索得分
+======================================================================
+  Fencing: 平均Top1=0.5924, 问题数=12
+  Cycling: 平均Top1=0.5167, 问题数=6
+  Equestrian: 平均Top1=0.5130, 问题数=9
+  Aquatics: 平均Top1=0.4985, 问题数=6
+  Tug-of-War: 平均Top1=0.4909, 问题数=1
+  Sailing: 平均Top1=0.4828, 问题数=2
+  Shooting: 平均Top1=0.4788, 问题数=1
+  Winter Sports: 平均Top1=0.4766, 问题数=20
+  Canoeing: 平均Top1=0.4687, 问题数=3
+  Gymnastics: 平均Top1=0.4679, 问题数=3
+  Modern Pentathlon: 平均Top1=0.4678, 问题数=2
+  Tennis: 平均Top1=0.4671, 问题数=2
+  Wrestling: 平均Top1=0.4660, 问题数=4
+  Badminton: 平均Top1=0.4652, 问题数=1
+  Weightlifting: 平均Top1=0.4630, 问题数=1
+  Football: 平均Top1=0.4592, 问题数=3
+  Triathlon: 平均Top1=0.4566, 问题数=1
+  Volleyball: 平均Top1=0.4515, 问题数=2
+  Baseball: 平均Top1=0.4509, 问题数=4
+  American Football: 平均Top1=0.4485, 问题数=1
+  Basketball: 平均Top1=0.4434, 问题数=1
+  Miscellaneous & History: 平均Top1=0.4399, 问题数=15
+  Archery: 平均Top1=0.4387, 问题数=3
+  Summer Olympic Records: 平均Top1=0.4376, 问题数=20
+  Rugby Sevens: 平均Top1=0.4358, 问题数=2
+  Motorsport: 平均Top1=0.4323, 问题数=1
+  Golf: 平均Top1=0.4299, 问题数=2
+  Rowing: 平均Top1=0.4254, 问题数=1
+  Taekwondo: 平均Top1=0.4130, 问题数=2
+  Summer Olympics Flag Bearers: 平均Top1=0.4099, 问题数=15
+  Judo: 平均Top1=0.4077, 问题数=1
+  London 2012: the sports: 平均Top1=0.4018, 问题数=9
+  Summer Olympics Attendance Records: 平均Top1=0.3994, 问题数=10
+  Olympedia: Miscellaneous & History: 平均Top1=0.3990, 问题数=1
+  Paris Olympics: 平均Top1=0.3899, 问题数=21
+  Countries Competing in the Summer Olympics: 平均Top1=0.3896, 问题数=10
+  Cricket: 平均Top1=0.3832, 问题数=1
+  General the Summer Olympics: 平均Top1=0.3768, 问题数=18
+  Olympic sports (2): 平均Top1=0.3714, 问题数=10
+  Summer Olympics Swimming Records: 平均Top1=0.3703, 问题数=3
+  Olympic sports (1): 平均Top1=0.3696, 问题数=9
+  Olympic history (1): 平均Top1=0.3681, 问题数=9
+  Olympic miscellany: 平均Top1=0.3638, 问题数=8
+  Olympic history (3): 平均Top1=0.3619, 问题数=9
+  London 2012 (2): 平均Top1=0.3576, 问题数=10
+  Olympic history (2): 平均Top1=0.3572, 问题数=7
+  Beijing 2008: 平均Top1=0.3547, 问题数=10
+  London 2012 (1): 平均Top1=0.3520, 问题数=8
+  Olympic incidents: 平均Top1=0.3420, 问题数=10
+  Summer Olympic Venues: 平均Top1=0.3407, 问题数=12
+  British gold(1）: 平均Top1=0.3390, 问题数=1
+  Athletics at the Olympics: 平均Top1=0.3384, 问题数=10
+  Olympic greats: 平均Top1=0.3370, 问题数=10
+  British gold (2): 平均Top1=0.3283, 问题数=10
+  Olympic royalty: 平均Top1=0.3279, 问题数=10
+  Olympic oddities: 平均Top1=0.3242, 问题数=8
+  British gold (1): 平均Top1=0.3187, 问题数=9
+  Olympic medallists: 平均Top1=0.3132, 问题数=9
+  Famous Olympians: 平均Top1=0.2983, 问题数=9
+
+======================================================================
+分析完成
+======================================================================

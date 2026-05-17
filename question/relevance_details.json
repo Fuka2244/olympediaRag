@@ -1,0 +1,4811 @@
+[
+  {
+    "id": 143,
+    "question": "In which year were the first modern Olympic Games held?",
+    "answer": [
+      "1896"
+    ],
+    "sim_top1_table": "editions_basic_info",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_overview",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 144,
+    "question": "Which city hosted the 1936 Summer Olympics?",
+    "answer": [
+      "berlin"
+    ],
+    "sim_top1_table": "place_names",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 145,
+    "question": "Who is the most decorated Olympian of all time, with 23 Olympic gold medals?",
+    "answer": [
+      "michael phelps"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 146,
+    "question": "In which year did the United States boycott the Summer Olympics held in Moscow?",
+    "answer": [
+      "1980"
+    ],
+    "sim_top1_table": "country_infobox",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 147,
+    "question": "Which city hosted the 1968 Summer Olympics, where the iconic Black Power salute took place?",
+    "answer": [
+      "mexico city"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 148,
+    "question": "Who was the first athlete to light the Olympic cauldron at the opening ceremony?",
+    "answer": [
+      "spyros louis"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_coach_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 149,
+    "question": "Which country has won the most gold medals in the history of the Summer Olympics?",
+    "answer": [
+      "united states"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 150,
+    "question": "Which city hosted the 2012 Summer Olympics?",
+    "answer": [
+      "london"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 151,
+    "question": "Which Olympic Games were held in Montreal?",
+    "answer": [
+      "the 1976 Summer Olympics"
+    ],
+    "sim_top1_table": "edition_sport_events",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 152,
+    "question": "Who was the first athlete to break the 10-second barrier in the 100-meter sprint at the Olympics?",
+    "answer": [
+      "jim hines"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 153,
+    "question": "In which year were women allowed to participate in athletics events for the first time?",
+    "answer": [
+      "1928"
+    ],
+    "sim_top1_table": "country_edition",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_total_participants",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 154,
+    "question": "Which country has hosted the Summer Olympics five times?",
+    "answer": [
+      "united states"
+    ],
+    "sim_top1_table": "country_description",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 155,
+    "question": "Which American sprinter won four gold medals at the 1984 Summer Olympics in Los Angeles?",
+    "answer": [
+      "carl lewis"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 156,
+    "question": "Which city hosted the first Summer Olympics in South America?",
+    "answer": [
+      "rio de janeiro"
+    ],
+    "sim_top1_table": "place_names",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 157,
+    "question": "Which country has won the most medals in the history of the Summer Olympics?",
+    "answer": [
+      "united states"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 158,
+    "question": "Who won the most gold medals in a single edition of the Summer Olympics?",
+    "answer": [
+      "michael phelps"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 159,
+    "question": "In which year did the Summer Olympics include the first-ever team sports event for women?",
+    "answer": [
+      "1924"
+    ],
+    "sim_top1_table": "sport_group_top_athletes",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "edition_sport_events",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 160,
+    "question": "Which city hosted the 2000 Summer Olympics?",
+    "answer": [
+      "sydney"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 161,
+    "question": "Who was the founder of the modern Olympic Games?",
+    "answer": [
+      "pierre de coubertin"
+    ],
+    "sim_top1_table": "olympics_athletes_infobox",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "olympics_athlete_biographies",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 162,
+    "question": "Which city hosted the 2016 Summer Olympics?",
+    "answer": [
+      "rio de janeiro"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 163,
+    "question": "Which city hosted the 2008 Summer Olympics?",
+    "answer": [
+      "beijing"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 164,
+    "question": "In which city were the 2012 Summer Olympics held?",
+    "answer": [
+      "london"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 165,
+    "question": "In which city did the inaugural modern Olympic Games take place in 1896?",
+    "answer": [
+      "athens"
+    ],
+    "sim_top1_table": "editions_basic_info",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 166,
+    "question": "Which city hosted the 1996 Summer Olympics?",
+    "answer": [
+      "atlanta"
+    ],
+    "sim_top1_table": "country_infobox",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 167,
+    "question": "In which city did the \"Dream Team\" win basketball gold in the 1992 Summer Olympics?",
+    "answer": [
+      "barcelona"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 168,
+    "question": "Which city hosted the 1976 Summer Olympics?",
+    "answer": [
+      "montreal"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 169,
+    "question": "In which city were the 1984 Summer Olympics held?",
+    "answer": [
+      "los angeles"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 170,
+    "question": "Which city hosted the 1988 Summer Olympics?",
+    "answer": [
+      "seoul"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 171,
+    "question": "In which city were the 1972 Summer Olympics held?",
+    "answer": [
+      "munich"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 172,
+    "question": "In which city were the 1992 Summer Olympics held?",
+    "answer": [
+      "barcelona"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 173,
+    "question": "Which city hosted the 1980 Summer Olympics?",
+    "answer": [
+      "moscow"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 174,
+    "question": "Who holds the men's 100-meter world record set at the Olympics?",
+    "answer": [
+      "usain bolt"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 175,
+    "question": "Who holds the women's 100-meter world record set at the Olympics?",
+    "answer": [
+      "florence griffith-joyner"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 176,
+    "question": "Who holds the men's long jump world record set at the Olympics?",
+    "answer": [
+      "bob beamon"
+    ],
+    "sim_top1_table": "records_ski_jumping",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "records_ski_jumping",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 177,
+    "question": "Who holds the men's shot put world record set at the Olympics?",
+    "answer": [
+      "ryan crouser"
+    ],
+    "sim_top1_table": "records_archery",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "records_archery",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 178,
+    "question": "Who holds the record for the most Olympic gold medals of all time?",
+    "answer": [
+      "michael phelps"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 179,
+    "question": "Which country holds the record for the most gold medals won in a single edition of the Summer Olympics?",
+    "answer": [
+      "united states"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 180,
+    "question": "Who holds the record for the fastest 100-meter sprint in Olympic history?",
+    "answer": [
+      "usain bolt"
+    ],
+    "sim_top1_table": "records_speed_skating",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "records_speed_skating",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 181,
+    "question": "Who holds the record for the longest long jump in Olympic history?",
+    "answer": [
+      "bob beamon"
+    ],
+    "sim_top1_table": "records_ski_jumping",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "records_ski_jumping",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 182,
+    "question": "Which athlete holds the record for the most Olympic appearances?",
+    "answer": [
+      "ian millar"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 183,
+    "question": "Who holds the record for the highest individual score in Olympic basketball history?",
+    "answer": [
+      "oscar schmidt"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 184,
+    "question": "Who holds the record for the most Olympic medals won by a female athlete?",
+    "answer": [
+      "larisa latynina"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 185,
+    "question": "Which country holds the record for the most consecutive gold medals won in Olympic men's basketball?",
+    "answer": [
+      "united states"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 186,
+    "question": "Who holds the record for the most goals scored in Olympic men's football (soccer) history?",
+    "answer": [
+      "todor veselinović"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 187,
+    "question": "Who holds the record for the most Olympic medals won by a male athlete?",
+    "answer": [
+      "michael phelps"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 188,
+    "question": "Which athlete holds the record for the most Olympic gold medals won in athletics (track and field)?",
+    "answer": [
+      "carl lewis"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 189,
+    "question": "Who holds the record for the most Olympic medals won in individual sports?",
+    "answer": [
+      "nikolay andrianov"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 190,
+    "question": "Who holds the record for the most consecutive Olympic gold medals won in the men's 100-meter sprint?",
+    "answer": [
+      "usain bolt"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 191,
+    "question": "Which country holds the record for the most Olympic gold medals won in swimming?",
+    "answer": [
+      "united states"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 192,
+    "question": "Who holds the record for the highest individual score in Olympic women's basketball history?",
+    "answer": [
+      "janice lawrence braxton"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 193,
+    "question": "Who holds the record for the most goals scored in Olympic men's water polo history?",
+    "answer": [
+      "tibor benedek"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 194,
+    "question": "Who holds the men's 100-meter butterfly world record set at the Olympics?",
+    "answer": [
+      "caeleb dressel"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 195,
+    "question": "Who holds the women's 100-meter butterfly world record set at the Olympics?",
+    "answer": [
+      "sarah sjöström"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 196,
+    "question": "Who holds the women's 50-meter freestyle world record set at the Olympics?",
+    "answer": [
+      "sarah sjöström"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 197,
+    "question": "Who was the flag bearer for the United States at the opening ceremony of the 2016 Summer Olympics in Rio de Janeiro?",
+    "answer": [
+      "michael phelps"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 198,
+    "question": "Who carried the flag for Australia at the opening ceremony of the 2021 Summer Olympics in Tokyo?",
+    "answer": [
+      "patty mills"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "ceremonies_official_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 199,
+    "question": "Which athlete was the flag bearer for Brazil at the opening ceremony of the 2016 Summer Olympics in Rio de Janeiro?",
+    "answer": [
+      "gustavo kuerten"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 200,
+    "question": "Who led the Canadian team as the flag bearer at the opening ceremony of the 2021 Summer Olympics in Tokyo?",
+    "answer": [
+      "miranda ayim"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 201,
+    "question": "Who was the flag bearer for Germany at the opening ceremony of the 2021 Summer Olympics in Tokyo?",
+    "answer": [
+      "laura ludwig"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 202,
+    "question": "Which athlete carried the flag for France at the opening ceremony of the 2016 Summer Olympics in Rio de Janeiro?",
+    "answer": [
+      "teddy riner"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 203,
+    "question": "Who represented Great Britain as the flag bearer at the opening ceremony of the 2021 Summer Olympics in Tokyo?",
+    "answer": [
+      "hannah mills"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 204,
+    "question": "Who carried the flag for Japan at the opening ceremony of the 2021 Summer Olympics in Tokyo?",
+    "answer": [
+      "rui hachimura"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "ceremonies_official_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 205,
+    "question": "Which athlete was the flag bearer for Jamaica at the opening ceremony of the 2016 Summer Olympics in Rio de Janeiro?",
+    "answer": [
+      "usain bolt"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 206,
+    "question": "Who led the Mexican team as the flag bearer at the opening ceremony of the 2021 Summer Olympics in Tokyo?",
+    "answer": [
+      "gaby lópez"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 207,
+    "question": "Who was the flag bearer for New Zealand at the opening ceremony of the 2021 Summer Olympics in Tokyo?",
+    "answer": [
+      "hamish bond"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 208,
+    "question": "Which athlete carried the flag for South Africa at the opening ceremony of the 2016 Summer Olympics in Rio de Janeiro?",
+    "answer": [
+      "wayde van niekerk"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 209,
+    "question": "Who represented Spain as the flag bearer at the opening ceremony of the 2021 Summer Olympics in Tokyo?",
+    "answer": [
+      "mireia belmonte"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 210,
+    "question": "Who carried the flag for Sweden at the opening ceremony of the 2021 Summer Olympics in Tokyo?",
+    "answer": [
+      "sarah sjöström"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "ceremonies_official_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 211,
+    "question": "Which athlete was the flag bearer for the United States at the opening ceremony of the 2021 Summer Olympics in Tokyo?",
+    "answer": [
+      "sue bird"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 212,
+    "question": "Which Summer Olympics recorded the highest overall attendance in history?",
+    "answer": [
+      "rio de janeiro 2016"
+    ],
+    "sim_top1_table": "event_total_participants",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 213,
+    "question": "Which city holds the record for the highest average attendance per session during the Summer Olympics?",
+    "answer": [
+      "los angeles 1984"
+    ],
+    "sim_top1_table": "country_edition",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "records_archery",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 214,
+    "question": "Which Summer Olympics saw the highest attendance for the opening ceremony?",
+    "answer": [
+      "beijing 2008"
+    ],
+    "sim_top1_table": "ceremonies_official_oath",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_coach_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 215,
+    "question": "Which sport at the Summer Olympics typically draws the largest crowds?",
+    "answer": [
+      "athletics"
+    ],
+    "sim_top1_table": "country_edition",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "records_speed_skating",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 216,
+    "question": "Which Summer Olympics had the highest single-day attendance?",
+    "answer": [
+      "london 2012"
+    ],
+    "sim_top1_table": "country_edition",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 217,
+    "question": "Which stadium holds the record for the highest attendance at a single session of the Summer Olympics?",
+    "answer": [
+      "los angeles memorial coliseum"
+    ],
+    "sim_top1_table": "venues",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 218,
+    "question": "Which country holds the record for the highest total attendance across multiple editions of the Summer Olympics?",
+    "answer": [
+      "united states"
+    ],
+    "sim_top1_table": "country_edition",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 219,
+    "question": "Which city had the highest attendance for the closing ceremony of the Summer Olympics?",
+    "answer": [
+      "barcelona"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 220,
+    "question": "Which Summer Olympics saw the highest attendance for a specific event or competition?",
+    "answer": [
+      "the men's football final at the 2016 summer olympics"
+    ],
+    "sim_top1_table": "event_names_best_performance_bycountry",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 221,
+    "question": "Which Summer Olympics experienced challenges in attendance due to political boycotts?",
+    "answer": [
+      "moscow 1980"
+    ],
+    "sim_top1_table": "country_participants",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 222,
+    "question": "Which small European country has a strong tradition in Olympic weightlifting, despite its size?",
+    "answer": [
+      "bulgaria"
+    ],
+    "sim_top1_table": "country_infobox",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 223,
+    "question": "Which African country is known for its long-distance runners and has won multiple Olympic medals in athletics?",
+    "answer": [
+      "kenya"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_medal_winners",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 224,
+    "question": "Which Asian country has made a mark in Olympic badminton, producing top-tier players?",
+    "answer": [
+      "indonesia"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 225,
+    "question": "Which South American country has won Olympic medals in multiple sports, including athletics, judo, and swimming?",
+    "answer": [
+      "venezuela"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 226,
+    "question": "Which Pacific island country has produced successful weightlifters and has won Olympic medals in the sport?",
+    "answer": [
+      "samoa"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 227,
+    "question": "Which Central American country has a strong presence in Olympic taekwondo and has won multiple medals?",
+    "answer": [
+      "mexico"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 228,
+    "question": "Which Eastern European country is known for its success in Olympic canoeing and kayaking events?",
+    "answer": [
+      "hungary"
+    ],
+    "sim_top1_table": "event_names_best_performance_bycountry",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 229,
+    "question": "Which Middle Eastern country has made a mark in Olympic shooting, winning multiple medals in the sport?",
+    "answer": [
+      "kuwait"
+    ],
+    "sim_top1_table": "records_archery",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 230,
+    "question": "Which Oceanian nation has excelled in Olympic rugby sevens and won gold medals in the sport?",
+    "answer": [
+      "fiji"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 231,
+    "question": "Olympic Equestrian Riders - Winning Medals in Dressage and Jumping",
+    "answer": [
+      "luís mena e silva",
+      "hans von rosen",
+      "fritz thiedemann"
+    ],
+    "sim_top1_table": "horse_event_record",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_total_participants",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 232,
+    "question": "Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "vincent hancock",
+      "kim rhode",
+      "ralf schumann",
+      "wang yifu"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 233,
+    "question": "Badminton players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "viktor axelsen",
+      "fu haifeng",
+      "gao ling",
+      "ge fei",
+      "gu jun",
+      "lee yang",
+      "lin dan",
+      "wang chi-lin",
+      "zhang jun",
+      "zhang ning"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 234,
+    "question": "Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "lars hall",
+      "andrey moiseyev"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 235,
+    "question": "Olympians Who Won Olympic, NCAA and NBA Basketball Titles",
+    "answer": [
+      "quinn buckner",
+      "anthony davis",
+      "magic johnson",
+      "k. c. jones",
+      "michael jordan",
+      "clyde lovellette",
+      "jerry lucas",
+      "bill russell"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 236,
+    "question": "Olympic Divers - Individual Double Champions, Different Years",
+    "answer": [
+      "betty becker-pinkston",
+      "cao yuan",
+      "fu mingxia",
+      "greg louganis",
+      "pat mccormick"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 237,
+    "question": "Rugby Sevens players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "michaela blyde",
+      "theresa fitzpatrick-setefano",
+      "sarah goss-hirini",
+      "tyla nathan-wong-king",
+      "risi pouri-lane",
+      "alena saili",
+      "jerry tuwai",
+      "stacey waaka-fluhler",
+      "portia woodman-wickliffe"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_results",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 238,
+    "question": "Olympic Fencers - Winning Gold Medals, Three Disciplines, Same Year",
+    "answer": [
+      "aldo nadi",
+      "nedo nadi"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_medal_winners",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 239,
+    "question": "Basketball players who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "swin cash",
+      "anthony davis",
+      "teresa edwards",
+      "patrick ewing",
+      "lebron james",
+      "michael jordan",
+      "jason kidd",
+      "katrina mcclain",
+      "delisha milton-jones",
+      "chris mullin"
+    ],
+    "sim_top1_table": "event_names_top_medallists",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 240,
+    "question": "Water Polo players who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "aleksey barkalov",
+      "ottó boros",
+      "dezső gyarmati",
+      "aleksandr kabanov",
+      "tivadar kanizsa",
+      "györgy kárpáti",
+      "mihály mayer",
+      "vyacheslav sobchenko"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 241,
+    "question": "Sailors who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "ben ainslie",
+      "jesper bank",
+      "mathew belcher",
+      "marit bouwmeester",
+      "thomas flach",
+      "bernd jäkel",
+      "valentin mankin",
+      "mark reynolds",
+      "robert scheidt",
+      "jochen schümann"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 242,
+    "question": "Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "ivar ballangrud",
+      "gunda kleemann-niemann-stirnemann",
+      "marianne timmer",
+      "ireen wüst"
+    ],
+    "sim_top1_table": "records_speed_skating",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "records_speed_skating",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 243,
+    "question": "Sprint Canoers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "agneta andersson",
+      "birgit fischer-schmidt",
+      "gert fredriksson",
+      "eirik verås larsen",
+      "vladimir morozov",
+      "ivan patzaichin",
+      "ramona portwich"
+    ],
+    "sim_top1_table": "events_non_starters",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 244,
+    "question": "Nordic Combined Skiers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "jørgen graabak"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 245,
+    "question": "Olympians Who Played in Tarzan Movies",
+    "answer": [
+      "don bragg",
+      "herman brix",
+      "buster crabbe",
+      "eleanor holm",
+      "glenn morris",
+      "johnny weissmuller"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "sport_top_athletes",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 246,
+    "question": "Olympic Champion Golfers Who Won Major Championships",
+    "answer": [
+      "chandler egan",
+      "lydia ko",
+      "nelly korda",
+      "park in-bi",
+      "justin rose",
+      "scottie scheffler"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_results",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 247,
+    "question": "Olympic Fencers - Winning Gold Medals, Foil/Épée, Individual",
+    "answer": [
+      "ramón fonst",
+      "lucien gaudin"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 248,
+    "question": "Rowers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "agostino abbagnale",
+      "kathrin boron",
+      "eskild ebbesen",
+      "conn findlay",
+      "jana sorgers"
+    ],
+    "sim_top1_table": "events_non_starters",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 249,
+    "question": "Olympic Fencers - Winning Medals, Foil/Épée, Individual",
+    "answer": [
+      "georges",
+      "baron dillon-kavanagh",
+      "roger ducret",
+      "ramón fonst",
+      "lucien gaudin",
+      "edoardo mangiarotti",
+      "charles tatham",
+      "albertson van zo post"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 250,
+    "question": "Baseball players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "omar ajete",
+      "josé antonio estrada",
+      "alberto hernández",
+      "orestes kindelán",
+      "omar linares",
+      "antonio pacheco",
+      "juan padilla",
+      "luis ulacia",
+      "lázaro vargas"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 251,
+    "question": "Equestrian Jumping Riders who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "ludger beerbaum",
+      "scott brash",
+      "ben maher",
+      "franke sloothaak",
+      "hans günter winkler"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 252,
+    "question": "Olympians Who Participated in the 2012 Olympic Football Qualification Campaign (women)",
+    "answer": [
+      "zhou gaoping"
+    ],
+    "sim_top1_table": "athlete_other_participations",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_total_participants",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 253,
+    "question": "Olympians Who Played Major League Baseball But Did Not Play Baseball as a Medal Sport at the Olympics",
+    "answer": [
+      "edmund minahan",
+      "jim thorpe"
+    ],
+    "sim_top1_table": "events_non_starters",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "events_non_starters",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 254,
+    "question": "Olympic Fencers - Winning Gold Medals, Foil/Sabre",
+    "answer": [
+      "manuel díaz",
+      "aldo nadi",
+      "nedo nadi",
+      "oreste puliti"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 255,
+    "question": "Skeleton athletes who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "lizzy yarnold"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 256,
+    "question": "Taekwondokas who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "chen zhong",
+      "hwang gyeong-seon",
+      "jade jones",
+      "ulugbek rashitov",
+      "panipak wongpattanakit",
+      "wu jingyu"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 257,
+    "question": "Luge athletes who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "jan behrendt",
+      "stefan krauße"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 258,
+    "question": "Weightlifters who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "akakios kakiasvili",
+      "long qingquan"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 259,
+    "question": "Olympians Who Participated in Formula One Races",
+    "answer": [
+      "birabongse",
+      "prince bhanubandh",
+      "pierre bouillin",
+      "franco colapinto",
+      "divina galica",
+      "roberto mieres",
+      "ben pon",
+      "fon",
+      "marqués de portago",
+      "bob said",
+      "robin widdows"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_total_participants",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 260,
+    "question": "Trampoline Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "ivan litvinovich",
+      "rosie maclennan"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 261,
+    "question": "Equestrian Dressage Riders who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "harry boldt",
+      "nadine capellmann",
+      "andré jousseaumé",
+      "reiner klimke",
+      "martin schaudt",
+      "isabell werth"
+    ],
+    "sim_top1_table": "horse_event_record",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 262,
+    "question": "Wrestlers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "bruce baumgartner",
+      "sergey beloglazov",
+      "andrzej wroński"
+    ],
+    "sim_top1_table": "events_non_starters",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 263,
+    "question": "Olympians Who Were on the Titanic",
+    "answer": [
+      "cosmo duff-gordon",
+      "dick williams"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athlete_biographies",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 264,
+    "question": "Artistic Gymnasts who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "simone biles",
+      "huang xu",
+      "sergey kharkov",
+      "mario lertora",
+      "li xiaopeng",
+      "tamara manina",
+      "yang wei"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 265,
+    "question": "Olympians Who Were Head of State",
+    "answer": [
+      "felipe",
+      "príncipe de asturias",
+      "juan carlos",
+      "príncipe de españa",
+      "albert",
+      "prince grimaldi",
+      "kronprins harald",
+      "crown prince konstantinos",
+      "olav",
+      "kronprins av norge",
+      "pál schmitt",
+      "marcus stephen"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "organizations_presidents",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 266,
+    "question": "Olympians Who Participated in the Grand National Steeplechase as a Jockey, Trainer or Horse Owner",
+    "answer": [
+      "alfred grisar",
+      "freddie guest",
+      "eddie harty",
+      "james hennessy",
+      "harry llewellyn",
+      "fon",
+      "marqués de portago"
+    ],
+    "sim_top1_table": "horse_biography",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "horse_info",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 267,
+    "question": "Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year",
+    "answer": [
+      "ivar johansson",
+      "kristjan palusalu"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 268,
+    "question": "Curlers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "eva lund",
+      "cathrine norberg-lindahl",
+      "anette norberg",
+      "anna svärd-le moine"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 269,
+    "question": "Olympic Wrestling Champions in Both Freestyle and Greco-Roman",
+    "answer": [
+      "kalle anttila",
+      "ivar johansson",
+      "kristjan palusalu"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 270,
+    "question": "Slalom Canoers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "tony estanguet",
+      "michal martikán"
+    ],
+    "sim_top1_table": "event_names_top_medallists",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 271,
+    "question": "Olympians Who Have a Town Named After Them",
+    "answer": [
+      "william exshaw",
+      "jim thorpe"
+    ],
+    "sim_top1_table": "place_names",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 272,
+    "question": "Olympic Equestrian Riders - Winning Medals in Dressage and 3-Day Event",
+    "answer": [
+      "frank henry",
+      "earl thomson"
+    ],
+    "sim_top1_table": "horse_event_record",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 273,
+    "question": "Olympic Fencers - Winning Medals, Foil/Sabre, Individual",
+    "answer": [
+      "gustav casmir",
+      "roger ducret",
+      "giulio gaudini",
+      "gustavo marzi",
+      "nedo nadi",
+      "albertson van zo post"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 274,
+    "question": "Ski Jumpers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "simon ammann"
+    ],
+    "sim_top1_table": "records_ski_jumping",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 275,
+    "question": "Equestrian Jumping Riders who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "ludger beerbaum",
+      "beezie madden",
+      "lars nieberg",
+      "hans von rosen",
+      "fritz thiedemann",
+      "mclain ward",
+      "hans günter winkler"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 276,
+    "question": "Alpine Skiers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "kjetil andré aamodt",
+      "vreni schneider"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 277,
+    "question": "Olympians Who Set a World Record in Speed Skating",
+    "answer": [
+      "falko zandstra",
+      "gabi zange-schönbrunn",
+      "ihar zhaliasouski",
+      "zhang hong"
+    ],
+    "sim_top1_table": "records_speed_skating",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "records_short_track_speed_skating",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 278,
+    "question": "Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "bruce davidson",
+      "michael jung",
+      "j. michael plumb",
+      "matt ryan",
+      "earl thomson"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 279,
+    "question": "Skateboarders who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "yuto horigome",
+      "keegan palmer"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 280,
+    "question": "Mountain Bike Cyclists who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "julien absalon",
+      "paola pezzo",
+      "tom pidcock"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 281,
+    "question": "Olympians Who Set a World Record in Long Course Swimming",
+    "answer": [
+      "zhang lin",
+      "zhang yufei",
+      "zhao jing",
+      "nina zhivanevskaya",
+      "zhu qianwei",
+      "kate ziegler",
+      "gyula zolyomy",
+      "zac zorn",
+      "anastasiya zuyeva-fesikova"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 282,
+    "question": "Rugby players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "dan carroll",
+      "charlie doe",
+      "john o'neil",
+      "jack patrick",
+      "rudy scholz",
+      "babe slater"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 283,
+    "question": "Taekwondokas who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "milica mandić"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 284,
+    "question": "Olympic Divers - Individual Double Champions, Same Year",
+    "answer": [
+      "pete desjardins",
+      "vicki draves",
+      "fu mingxia",
+      "ingrid gulbin-engel-krämer",
+      "greg louganis",
+      "greg louganis",
+      "pat mccormick",
+      "pat mccormick",
+      "al white"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 285,
+    "question": "Modern Pentathletes who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "andrás balczó",
+      "pavel lednyov",
+      "igor novikov"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 286,
+    "question": "Olympians Who Won a Medal at the World Short Track Speed Skating Team Championships",
+    "answer": [
+      "zhang yanmei",
+      "zhao nannan",
+      "zheng chunyang",
+      "zhu mi lei",
+      "zhou yang",
+      "katia zini",
+      "mara zini"
+    ],
+    "sim_top1_table": "records_short_track_speed_skating",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "records_short_track_speed_skating",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 287,
+    "question": "Baseball players who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "pedro luis lazo",
+      "eduardo paret",
+      "antonio scull"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 288,
+    "question": "Olympians Who Won the Super Bowl",
+    "answer": [
+      "mike carter",
+      "nate ebner",
+      "bob hayes"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 289,
+    "question": "Alpine Skiers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "kjetil andré aamodt",
+      "deborah compagnoni",
+      "michelle gisin",
+      "maria höfl-riesch",
+      "janica kostelić",
+      "matthias mayer",
+      "katja seizinger",
+      "alberto tomba"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 290,
+    "question": "Equestrianism: Competing in all events",
+    "answer": [
+      "arthur qvist"
+    ],
+    "sim_top1_table": "horse_event_record",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_participants",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 291,
+    "question": "Olympians Who Won an Olympic Baseball Gold Medal and a World Series Title",
+    "answer": [
+      "pat borders",
+      "josé contreras",
+      "yuli gourriel",
+      "orlando hernández",
+      "doug mientkiewicz"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 292,
+    "question": "Slalom Canoers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "tony estanguet",
+      "jess fox",
+      "štěpánka hilgertová",
+      "pavol hochschorner",
+      "peter hochschorner",
+      "elena kaliská"
+    ],
+    "sim_top1_table": "event_names_top_medallists",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 293,
+    "question": "Olympic Fencers - Winning Gold Medals, Foil/Épée/Sabre",
+    "answer": [
+      "aldo nadi",
+      "nedo nadi"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 294,
+    "question": "Triathletes who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "alistair brownlee"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 295,
+    "question": "Archers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "gi bo-bae",
+      "im dong-hyeon",
+      "jang yong-ho",
+      "kim je-deok",
+      "kim su-nyeong",
+      "kim wu-jin",
+      "park gyeong-mo",
+      "park seong-hyeon",
+      "yun mi-jin"
+    ],
+    "sim_top1_table": "records_archery",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "records_archery",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 296,
+    "question": "Olympians Who Were Head of Government",
+    "answer": [
+      "taro aso",
+      "kolinda grabar-kitarović"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "organizations_presidents",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 297,
+    "question": "Olympians Who Have Won a Nobel Prize",
+    "answer": [
+      "philip baker"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 298,
+    "question": "Olympic Fencers - Winning Gold Medals, Épée/Sabre, Individual",
+    "answer": [
+      "cyrille verbrugge"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 299,
+    "question": "Olympians Who Won a Medal at the European Archery Championships",
+    "answer": [
+      "vladimir yesheyev",
+      "yağız yılmaz",
+      "stanislav zabrodsky",
+      "fred van zutphen"
+    ],
+    "sim_top1_table": "records_archery",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "records_archery",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 300,
+    "question": "Olympic Fencers - Winning Medals, Épée/Sabre, Individual",
+    "answer": [
+      "roger ducret",
+      "gabriel",
+      "comte de la falaise",
+      "ioannis raisis",
+      "albertson van zo post",
+      "cyrille verbrugge"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 301,
+    "question": "BMX Racing Cyclists who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "craig adair",
+      "mariana pajón"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 302,
+    "question": "Olympians Who Have Topped the English FA Premier League Goal Scoring List",
+    "answer": [
+      "sergio agüero",
+      "pierre-emerick aubameyang",
+      "cristiano ronaldo",
+      "sadio mané",
+      "mohamed salah",
+      "son heung-min",
+      "luis suárez",
+      "carlos tévez"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 303,
+    "question": "Olympians Who Competed in the Boat Race",
+    "answer": [
+      "tyler winklevoss",
+      "william woodward",
+      "leslie wormald",
+      "oliver wynne-griffith"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "events_non_starters",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 304,
+    "question": "Track Cyclists who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "guido fulst",
+      "lutz heßlich",
+      "jens lehmann",
+      "joan llaneras",
+      "bradley wiggins"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 305,
+    "question": "Olympians Who Have Flown into Space",
+    "answer": [
+      "jon goodwin"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athlete_biographies",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 306,
+    "question": "Short Track Speed Skaters who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "viktor an",
+      "charles hamelin",
+      "françois-louis tremblay"
+    ],
+    "sim_top1_table": "records_short_track_speed_skating",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "records_short_track_speed_skating",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 307,
+    "question": "Beach Volleyball players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "misty may-treanor",
+      "kerri walsh jennings"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 308,
+    "question": "Olympians Who Fought at WrestleMania",
+    "answer": [
+      "kurt angle",
+      "allen coage",
+      "mark henry",
+      "floyd mayweather",
+      "jr.",
+      "ken patera",
+      "ronda rousey"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_top_medallists",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 309,
+    "question": "Olympic Equestrian Riders - Winning Individual Medals in Two Disciplines",
+    "answer": [
+      "jacques cariou",
+      "clarence",
+      "greve von rosen",
+      "jr."
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 310,
+    "question": "Cross Country Skiers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "marit bjørgen",
+      "bjørn dæhlie",
+      "nina gavrylyuk",
+      "sixten jernberg",
+      "kristen skjeldal",
+      "raisa smetanina"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 311,
+    "question": "Volleyball players who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "giovane",
+      "maurício",
+      "serginho"
+    ],
+    "sim_top1_table": "event_names_top_medallists",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 312,
+    "question": "Freestyle Skiers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "alex bilodeau",
+      "david wise"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 313,
+    "question": "Road Cyclists who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "fabian cancellara"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 314,
+    "question": "Nordic Combined Skiers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "eric frenzel",
+      "felix gottwald",
+      "johan grøttumsbraaten",
+      "takanori kono",
+      "kenji ogiwara",
+      "mario stecher",
+      "ulrich wehling"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 315,
+    "question": "Divers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "lin yue"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 316,
+    "question": "Tennis players who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "reggie doherty",
+      "serena williams",
+      "venus williams"
+    ],
+    "sim_top1_table": "event_names_top_medallists",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 317,
+    "question": "Olympians Included on the Voyager 1 and 2 Golden Record",
+    "answer": [
+      "valery borzov",
+      "motsapi moorosi",
+      "cathy rigby",
+      "edwin roberts",
+      "su wen-ho"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "edition_sport_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 318,
+    "question": "Golfers Who Recorded Holes-in-One at the Olympic Games",
+    "answer": [
+      "maha haddioui",
+      "lydia ko",
+      "janet lin",
+      "justin rose",
+      "jaco van zyl"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 319,
+    "question": "Footballers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "brandi chastain",
+      "joy fawcett",
+      "julie foudy",
+      "mia hamm",
+      "kristine lilly",
+      "cindy parlow",
+      "briana scurry",
+      "abby wambach"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 320,
+    "question": "Olympic Sailors who have competed in the Volvo Ocean Race/Whitbread Race Around the World (Work in progress)",
+    "answer": [
+      "sally barkow",
+      "carolijn brouwer",
+      "paul cayard",
+      "torben grael",
+      "roy heiner",
+      "john kostecki",
+      "annie lush",
+      "dirk de ridder"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 321,
+    "question": "Ski Jumpers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "andreas kofler",
+      "thomas morgenstern",
+      "ari-pekka nikkola",
+      "matti nykänen",
+      "birger ruud",
+      "kamil stoch"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "records_ski_jumping",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 322,
+    "question": "Rhythmic Gymnasts who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "anastasiya bliznyuk",
+      "yevgeniya kanayeva",
+      "nataliya lavrova",
+      "yelena posevina"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 323,
+    "question": "Biathletes who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "ole einar bjørndalen",
+      "tarjei bø",
+      "sven fischer",
+      "martin fourcade",
+      "ricco groß",
+      "halvard hanevold"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 324,
+    "question": "Judokas who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "teddy riner"
+    ],
+    "sim_top1_table": "event_names_top_medallists",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 325,
+    "question": "Inventions by and named after Olympians",
+    "answer": [
+      "johnny fitzpatrick",
+      "arturo gramajo",
+      "jean verbrugge",
+      "thomas zacharias"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 326,
+    "question": "Olympic Fencers - Winning Gold Medals, Épée/Sabre",
+    "answer": [
+      "marcello bertinetti",
+      "gabriel",
+      "comte de la falaise",
+      "aldo nadi",
+      "nedo nadi",
+      "dino urbani",
+      "cyrille verbrugge"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 327,
+    "question": "Olympians Who Have Climbed Mount Everest",
+    "answer": [
+      "manuela di centa",
+      "sabrina filzmoser",
+      "anne-mari hyryläinen",
+      "george mallory",
+      "gota miura",
+      "nick symmonds",
+      "steve williams"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athlete_biographies",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 328,
+    "question": "Olympic Cycling Medalists and Tour de France Champions",
+    "answer": [
+      "jacques anquetil",
+      "chris froome",
+      "miguel induráin",
+      "octave lapize",
+      "tadej pogačar",
+      "geraint thomas",
+      "jan ullrich",
+      "bradley wiggins",
+      "joop zoetemelk"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 329,
+    "question": "Olympic Fencers - Winning Medals, Foil/Épée/Sabre, Individual",
+    "answer": [
+      "roger ducret",
+      "albertson van zo post"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 330,
+    "question": "Tennis players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "gigi fernandez",
+      "mary joe fernandez",
+      "andy murray",
+      "serena williams",
+      "venus williams"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 331,
+    "question": "Road Cyclists who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "kristin armstrong",
+      "vyacheslav yekimov",
+      "leontien zijlaard-van moorsel"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 332,
+    "question": "Archers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "kim su-nyeong",
+      "lee seong-jin",
+      "darrell pace"
+    ],
+    "sim_top1_table": "records_archery",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "records_archery",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 333,
+    "question": "Olympic Fencers - Winning Gold Medals, Two Disciplines, Individual, Same Year",
+    "answer": [
+      "ramón fonst",
+      "lucien gaudin",
+      "nedo nadi",
+      "cyrille verbrugge"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_medal_winners",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 334,
+    "question": "Tug-of-War Pullers who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "frederick humphreys",
+      "edwin mills",
+      "james shepherd"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 335,
+    "question": "Figure Skaters who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "artur dmitriyev",
+      "katya gordeyeva",
+      "sergey grinkov",
+      "scott moir",
+      "tessa virtue"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 336,
+    "question": "Olympic Fencers - Winning Gold Medals, Foil/Sabre, Individual",
+    "answer": [
+      "nedo nadi"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_medal",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 337,
+    "question": "Marathon Swimmers who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "sharon van rouwendaal"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 338,
+    "question": "Olympians Who Played in the Cricket World Cup",
+    "answer": [
+      "suzie bates",
+      "sunette viljoen"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 339,
+    "question": "Olympians Killed in the Katyn Massacre",
+    "answer": [
+      "józef baran-bilewski",
+      "wojciech bursa",
+      "zdzisław dziadulski",
+      "zdzisław kawecki",
+      "aleksander kowalski",
+      "marian spojda",
+      "stanisław urban"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 340,
+    "question": "Snowboarders who won more than one Olympic title in the same event in non-consecutive Games",
+    "answer": [
+      "shaun white"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_other_participations",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 341,
+    "question": "Olympic Wrestling Medalists in Both Freestyle and Greco-Roman, Same Year",
+    "answer": [
+      "wilfried dietrich",
+      "nikolaus hirschl",
+      "ivar johansson",
+      "jan karlsson",
+      "august neo",
+      "kristjan palusalu",
+      "daniel robin",
+      "rudolf svensson"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 342,
+    "question": "Olympians Who Won Academy Awards (Oscars)",
+    "answer": [
+      "kobe bryant",
+      "michelle yeoh"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 343,
+    "question": "Snowboarders who successfully defended their Olympic title in the same event in back-to-back Games",
+    "answer": [
+      "jamie anderson",
+      "anna gasser",
+      "chloe kim",
+      "ester ledecká",
+      "philipp schoch",
+      "pierre vaultier",
+      "seth wescott",
+      "shaun white"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_most_successful_competitors",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 344,
+    "question": "Olympians Who Ran for President of the United States (POTUS)",
+    "answer": [
+      "bill bradley",
+      "peter camejo",
+      "bob richards",
+      "ben spock"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athlete_biographies",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 345,
+    "question": "Who was the 'father' of the modern Olympics?",
+    "answer": [
+      "pierre de coubertin"
+    ],
+    "sim_top1_table": "olympics_athletes_infobox",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "olympics_athlete_biographies",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 346,
+    "question": "When were the first modern Olympics and where did they take place?",
+    "answer": [
+      "1896 athens"
+    ],
+    "sim_top1_table": "place_names",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 347,
+    "question": "How many athletes were there in the 1896 Athens Olympics?",
+    "answer": [
+      "241"
+    ],
+    "sim_top1_table": "olympics_athletes_infobox",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 348,
+    "question": "Which country finished top of the medal table in the first modern games?",
+    "answer": [
+      "united states"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_medal_table",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 349,
+    "question": "Which European country finished second? and won the most medals overall?",
+    "answer": [
+      "greece"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_edition_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 350,
+    "question": "How many times have the Summer Olympics been held in Paris before 2024.",
+    "answer": [
+      "2"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 351,
+    "question": "Where in Paris were the athletic Olympic events held in previous games?",
+    "answer": [
+      "bois de vincennes",
+      "colombes"
+    ],
+    "sim_top1_table": "edition_sport_events",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 352,
+    "question": "How many athletes were there in the 1924 Paris Olympics to the nearest thousand? 1,000, 3,000, or 5,000?",
+    "answer": [
+      "3089"
+    ],
+    "sim_top1_table": "olympics_athletes_infobox",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 353,
+    "question": "Which of the following events were not part of the 1900 Olympics Polo, Golf, Cricket, Croquet, Basque pelota, tug of war?",
+    "answer": [
+      "polo",
+      "golf",
+      "cricket",
+      "croquet",
+      "basque pelota",
+      "tug of war"
+    ],
+    "sim_top1_table": "events_non_starters",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 354,
+    "question": "Which Summer Olympics were featured in the film 'Chariots of Fire'?",
+    "answer": [
+      "paris 1924"
+    ],
+    "sim_top1_table": "ceremonies_torch_bearers",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 355,
+    "question": "In 1924 the USA again finished top of the metal table (with 45 gold), which country finished second (hint it begins with an F).",
+    "answer": [
+      "finland"
+    ],
+    "sim_top1_table": "country_medal_by_sport",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 356,
+    "question": "Which athlete won three track golds in the 1936 games?",
+    "answer": [
+      "jesse owens"
+    ],
+    "sim_top1_table": "olympic_athlete_results",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 357,
+    "question": "What has been the longest standing modern Olympic athletics record?",
+    "answer": [
+      "long jump"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 358,
+    "question": "Where will the 2024 Olympics opening ceremony take place?",
+    "answer": [
+      "river seine"
+    ],
+    "sim_top1_table": "ceremonies_official_oath",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 359,
+    "question": "Where will the beach volleyball take place at the 2024 Olympics?",
+    "answer": [
+      "eiffel tower stadium"
+    ],
+    "sim_top1_table": "venues",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 360,
+    "question": "Where will the equestrian and modern pentathlon take place at the 2024 Olympics?",
+    "answer": [
+      "palace of versailles"
+    ],
+    "sim_top1_table": "horse_biography",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "horse_info",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 361,
+    "question": "Which events are scheduled to take place in the river Seine?",
+    "answer": [
+      "triathlon",
+      "marathon swimming"
+    ],
+    "sim_top1_table": "event_names_basic_info",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 362,
+    "question": "Where will the closest Olympic venue be to Maisons Laffitte?",
+    "answer": [
+      "la défense arena"
+    ],
+    "sim_top1_table": "place_names",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "venues",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 363,
+    "question": "Which sport will not be held in France but will be part of the games?",
+    "answer": [
+      "surfing"
+    ],
+    "sim_top1_table": "events_non_starters",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "ceremonies_torch_bearers",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 364,
+    "question": "When was the first paralympic games?",
+    "answer": [
+      "1960"
+    ],
+    "sim_top1_table": "edition_sport_overview",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 365,
+    "question": "When and where were women first allowed to compete in the Olympics?",
+    "answer": [
+      "1900",
+      "paris"
+    ],
+    "sim_top1_table": "country_edition",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 366,
+    "question": "Who was president of the IOC from 1896 to 1925, and honorary president until his death in 1937?",
+    "answer": [
+      "baron pierre de coubertin"
+    ],
+    "sim_top1_table": "olympics_athletes_infobox",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ioc_meetings",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 367,
+    "question": "Where did the rowing events take place when London staged the 1948 Olympics?",
+    "answer": [
+      "henley"
+    ],
+    "sim_top1_table": "edition_sport_events",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 368,
+    "question": "Josef Barthel was which European country's only gold medal winner when he won the 1,500m at Helsinki in 1952?",
+    "answer": [
+      "luxembourg"
+    ],
+    "sim_top1_table": "country_edition_result",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 369,
+    "question": "Which games were the first to receive a fee from broadcasters to show the Olympics, the IOC collecting \\$1.2 million with the games being broadcast in 21 countries?",
+    "answer": [
+      "rome 1960"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 370,
+    "question": "What was the name of the Palestinian terrorist group who blighted the Munich games with their kidnap and murder of 11 Israelis?",
+    "answer": [
+      "black september"
+    ],
+    "sim_top1_table": "sport_group_medals",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 371,
+    "question": "Who is the only person to light the Olympic torch and win a gold medal at the same games, winning her country's 100th gold in the process in front of the largest-ever crowd at an Olympic session?",
+    "answer": [
+      "cathy freeman"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "ceremonies_torch_bearers",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 372,
+    "question": "Which is the only country credited with having won a gold medal at every modern Olympic Games?",
+    "answer": [
+      "great britain"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 373,
+    "question": "What are the only five sports to have been played at all the modern Olympic Games?",
+    "answer": [
+      "athletics",
+      "cycling",
+      "fencing",
+      "gymnastics",
+      "swimming"
+    ],
+    "sim_top1_table": "sports",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "edition_sport_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 374,
+    "question": "With 207 golds, Great Britain takes fourth place in the all-time medal table for the Summer Olympics. What are the three countries ahead of us?",
+    "answer": [
+      "usa",
+      "soviet union",
+      "germany"
+    ],
+    "sim_top1_table": "editions_medal_table",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "country_infobox",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 375,
+    "question": "Which bald British swimmer won gold at the 1980 Olympics in the 100m breaststroke?",
+    "answer": [
+      "duncan goodhew"
+    ],
+    "sim_top1_table": "olympics_athletes_infobox",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 376,
+    "question": "Who was the first British woman to win two gold medals at the same Olympic Games?",
+    "answer": [
+      "kelly holmes"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 377,
+    "question": "Which three rowers helped Steve Redgrave to his fifth gold medal at Sydney?",
+    "answer": [
+      "matthew pinsent",
+      "tim foster",
+      "james cracknell"
+    ],
+    "sim_top1_table": "sport_group_top_athletes",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 378,
+    "question": "Who ran the anchor leg when Britain shocked the Americans to win the men's 4x 100m at Athens in 2004?",
+    "answer": [
+      "mark lewis-francis"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 379,
+    "question": "In which sport did Malcolm Cooper win gold at Los Angeles in 1984 and Seoul in 1988?",
+    "answer": [
+      "shooting"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 380,
+    "question": "Chris Hoy won gold medals in Beijing in the sprint, team sprint and which other cycling event?",
+    "answer": [
+      "keirin"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 381,
+    "question": "Britian won the first four gold medals, between 1900 and 1920, in which seven-man team sport, but has never won a medal in it since?",
+    "answer": [
+      "water polo"
+    ],
+    "sim_top1_table": "sport_group_medals",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "sport_medals",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 382,
+    "question": "In which event have Laurieston (in 1972) and Shear l'Eau (in 2004) helped the UK to Olympic gold?",
+    "answer": [
+      "individual three-day event"
+    ],
+    "sim_top1_table": "country_edition_result",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 383,
+    "question": "In which sport did brothers Laurie and Reggie Doherty both win two gold medals at Paris in 1900?",
+    "answer": [
+      "tennis"
+    ],
+    "sim_top1_table": "records_archery",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 384,
+    "question": "At which two Olympic Games did Daley Thompson win gold medals in the decathlon?",
+    "answer": [
+      "moscow 1980",
+      "los angeles 1984"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 385,
+    "question": "Which current Premier League footballer was top scorer in the football tournament in Athens, scoring eight goals to help Argentina to gold?",
+    "answer": [
+      "carlos tevez"
+    ],
+    "sim_top1_table": "event_names_top_medallists",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_results",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 386,
+    "question": "Which grill entrepreneur won an Olympic gold at Mexico in 1968?",
+    "answer": [
+      "george foreman"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_infobox",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 387,
+    "question": "Who won the 400m freestyle swimming at the 1932 Los Angeles Games before embarking on an acting career, becoming the only actor to play Tarzan, Flash Gordon and Buck Rogers?",
+    "answer": [
+      "buster crabbe"
+    ],
+    "sim_top1_table": "athlete_other_participations",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 388,
+    "question": "Which Second World War American General competed in the modern pentathlon at the 1912 Stockholm Olympics, coming fifth, the highest place for a non-Swede?",
+    "answer": [
+      "george s patton"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 389,
+    "question": "Childcare expert Dr Benjamin Spock was an Olympic gold medallist in which sport?",
+    "answer": [
+      "rowing"
+    ],
+    "sim_top1_table": "sports",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 390,
+    "question": "Weightlifter Harold Sakata, who won the light heavyweight silver at London in 1948, later became famous for his role in which part in a James Bond film?",
+    "answer": [
+      "oddjob"
+    ],
+    "sim_top1_table": "athlete_other_participations",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 391,
+    "question": "What nationality was Juan Antonio Samaranch, president of the IOC from 1980 to 2001?",
+    "answer": [
+      "spanish"
+    ],
+    "sim_top1_table": "country_infobox",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 392,
+    "question": "Which fencing competitor at Melbourne in 1956 was president of the World Bank from 1995 to 2005?",
+    "answer": [
+      "james wolfensohn"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 393,
+    "question": "Which country did Lennox Lewis represent when he won the Olympic super heavyweight boxing title at Seoul in 1988?",
+    "answer": [
+      "canada"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 394,
+    "question": "In which city was it announced on July 6, 2005, that London was successful in its bid to host the 2012 Olympics?",
+    "answer": [
+      "singapore"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_bid_process",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 395,
+    "question": "From where did the Olympic torch embark at 7am on Saturday, May 19, on its tour around the country?",
+    "answer": [
+      "land's end"
+    ],
+    "sim_top1_table": "ceremonies_torch_bearers",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_torch_bearers",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 396,
+    "question": "Who is artistic director of the opening ceremony?",
+    "answer": [
+      "danny boyle"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_coach_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 397,
+    "question": "What is the price of the costliest ticket to the opening ceremony?",
+    "answer": [
+      "£2,012"
+    ],
+    "sim_top1_table": "ceremonies_official_oath",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_official_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 398,
+    "question": "Who is the architect of the Aquatic Centre for the Olympics?",
+    "answer": [
+      "zaha hadid"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 399,
+    "question": "Who is the chairman of the London 2012 Organising Committee?",
+    "answer": [
+      "lord coe"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "organizations_presidents",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 400,
+    "question": "Which artist designed the ArcelorMittal Orbit tower at the Olympic Park?",
+    "answer": [
+      "anish kapoor"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athlete_biographies",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 401,
+    "question": "Which watch company is official timekeeper to the 2012 Olympics?",
+    "answer": [
+      "omega"
+    ],
+    "sim_top1_table": "ceremonies_official_oath",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 402,
+    "question": "Which athlete was stripped of his gold medal in the men's 100m at Seoul after failing a drugs test?",
+    "answer": [
+      "wrestling"
+    ],
+    "sim_top1_table": "olympic_athlete_results",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 403,
+    "question": "The opening ceremony to which Olympic Games featured a spaceman flying with a jetpack?",
+    "answer": [
+      "fencing"
+    ],
+    "sim_top1_table": "ceremonies_official_oath",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_official_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 404,
+    "question": "Who crashed out in tears of the women's 3,000m at Los Angeles in 1984 after tripping over Zola Budd?",
+    "answer": [
+      "rhythmic gymnastics"
+    ],
+    "sim_top1_table": "place_people_relations",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_biography",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 405,
+    "question": "South Korean Park Si-hun benefited from at least four highly contentious judging decisions in five matches to win an Olympic Gold in which sport at Seoul in 1988?",
+    "answer": [
+      "2000 m"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 406,
+    "question": "At the ceremony for the men's 200m in athletics at Mexico in 1968, two American athletes caused controversy by giving the black power salute. Brazillian Vanderiei de Lima, and pushed him into the crowd?",
+    "answer": [
+      "volleyball"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 407,
+    "question": "Which event was disrupted by defrocked Irish priest Cornelius Horan at Athens in 2004, who grabbed the leader, Brazilian Vanderlei de Lima, and pushed him into the crowd?",
+    "answer": [
+      "omnium"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 408,
+    "question": "Which two countries contested a violent water polo match at Melbourne, tensions having been inflamed by political events a month earlier?",
+    "answer": [
+      "water polo"
+    ],
+    "sim_top1_table": "place_people_relations",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 409,
+    "question": "At Munich in 1972, in which sport were the Pakistan team so riled by what they saw as biased officiating in the final against Germany that they poured water over the president of the sport's international federation?",
+    "answer": [
+      "backstroke",
+      "breaststroke",
+      "butterfly"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "organizations_presidents",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 410,
+    "question": "The women's gymnastics event at Sydney was affected by the height of which piece of equipment being set 5cm too low?",
+    "answer": [
+      "windsurfing"
+    ],
+    "sim_top1_table": "athlete_results",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 411,
+    "question": "Greek sprinters Kostas Kenteris and Ekaterini Thanou missed a drugs test prior to Athens 2004. What there they accused of faking to explain the missed test?",
+    "answer": [
+      "clean and jerk"
+    ],
+    "sim_top1_table": "events_non_starters",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "sport_top_athletes",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 412,
+    "question": "Which British athlete was fourth in the pentathlon in 1964, ninth in 1968 but won gold with a world record in 1972?",
+    "answer": [
+      "mary peters"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 413,
+    "question": "Which Australian swimmer, notable for his size 17 feet and 75in arm span,won three gold medals in 2000 and another two in 2004?",
+    "answer": [
+      "lan thorpe"
+    ],
+    "sim_top1_table": "olympics_athlete_biographies",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_medal_winners",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 414,
+    "question": "At which Olympic Games did Cassius Clay (later Muhammad Ali) win the light-heavyweight boxing gold medal?",
+    "answer": [
+      "rome 1960"
+    ],
+    "sim_top1_table": "olympics_athletes_infobox",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 415,
+    "question": "In which event have the fathers of both Grace Kelly and Hugh Laurie won gold medals at the Olympic Garnes?",
+    "answer": [
+      "rowing"
+    ],
+    "sim_top1_table": "edition_sport_events",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 416,
+    "question": "Which Ethiopian athlete became the first gold medallist from his country when he won the marathon, running barefoot, at Rome in 1960?",
+    "answer": [
+      "abebe bikila"
+    ],
+    "sim_top1_table": "olympics_athletes_infobox",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 417,
+    "question": "Which country won the men's hockey gold medal on six consecutive occasions, from 1928 to 1960?",
+    "answer": [
+      "india"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 418,
+    "question": "Eugene Lunde of Norway in 1924, son Peter in 1952 and grandson Peter in 1960 were all Olympic medallists in which sport?",
+    "answer": [
+      "sailing"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_top_medallists",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 419,
+    "question": "Which sprinter has won more bronze medals than any other woman at the Olympics - six between 1980 and 2000 - as well as three silver medals but never a gold?",
+    "answer": [
+      "merlene ottey"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_medals_by_country",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 420,
+    "question": "Dick Williams, who won gold in the tennis mixed doubles at Paris in 1924, was a survivor of which famous disaster?",
+    "answer": [
+      "sinking of rms titanic"
+    ],
+    "sim_top1_table": "place_people_relations",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 421,
+    "question": "How many players are there in a beach volleyball team?",
+    "answer": [
+      "2"
+    ],
+    "sim_top1_table": "organizations_members",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 422,
+    "question": "What are the three types of fencing sword used at the Olympics?",
+    "answer": [
+      "épée",
+      "foil",
+      "sabre"
+    ],
+    "sim_top1_table": "ceremonies_torch_bearers",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "ceremonies_torch_bearers",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 423,
+    "question": "In a swimming individual medley race, which of the four strokes is done first?",
+    "answer": [
+      "butterfly"
+    ],
+    "sim_top1_table": "event_names_best_performance_bycountry",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_results",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 424,
+    "question": "Which sports, undertaken by women only, originally had solo and duet competitions when introduced at Los Angeles in 1984, but since 2000 has duet and team events?",
+    "answer": [
+      "synchronised swimming"
+    ],
+    "sim_top1_table": "place_people_relations",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "sport_events",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 425,
+    "question": "In diving, how high above the water is the springboard?",
+    "answer": [
+      "3 m"
+    ],
+    "sim_top1_table": "records_ski_jumping",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 426,
+    "question": "What is the lightest weight category of the 10 currently fought in men's boxing at the Olympic Games?",
+    "answer": [
+      "light flyweight"
+    ],
+    "sim_top1_table": "olympics_athletes_infobox",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 427,
+    "question": "How many people take part in the final of an Olympic rowing eights competition?",
+    "answer": [
+      "54"
+    ],
+    "sim_top1_table": "event_total_participants",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_total_participants",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 428,
+    "question": "Which Olympic discipline is competed on something 5.05 metres wide and 1.155 meters high?",
+    "answer": [
+      "trampoline"
+    ],
+    "sim_top1_table": "sports",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "sports",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 429,
+    "question": "Which event was an exhibition sport on seven occasions, more often than any other, finally gained admittance in 1992, but was dropped after 2008?",
+    "answer": [
+      "baseball"
+    ],
+    "sim_top1_table": "events_non_starters",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "edition_sport_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 430,
+    "question": "Which then-revolutionary jumping technique made its debut at Mexico in 1968?",
+    "answer": [
+      "fosbury flop"
+    ],
+    "sim_top1_table": "records_ski_jumping",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 431,
+    "question": "What type of creature was Misha, mascot of the 1980 Olympics?",
+    "answer": [
+      "bear"
+    ],
+    "sim_top1_table": "horse_biography",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "ceremonies_torch_bearers",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 432,
+    "question": "The torch relay was first staged at which Olympic Games?",
+    "answer": [
+      "berlin 1936"
+    ],
+    "sim_top1_table": "ceremonies_torch_bearers",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_torch_bearers",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 433,
+    "question": "Which country was banned from the Olympic Games from 1962 to 1991?",
+    "answer": [
+      "south africa"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 434,
+    "question": "At Athens in 2004, women competed for the first time in which event, in four weight classes?",
+    "answer": [
+      "freestyle wrestling"
+    ],
+    "sim_top1_table": "sports",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 435,
+    "question": "Which sport will be making its return at Rio in 2016 after 112 years, having been competed in 1900 and 1904 when all the gold medals were won by people from North America?",
+    "answer": [
+      "golf"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 436,
+    "question": "Who received the Olympic Flag from the IOC president at the 2008 Closing Ceremony?",
+    "answer": [
+      "boris johnson"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 437,
+    "question": "How many times has Queen Elizabeth II opened the Olympic Games?",
+    "answer": [
+      "1"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 438,
+    "question": "Crown Prince Constantine won a gold medal in the Dragon- class sailing at the 1960 Games for which country, whose throne he would accede to four years later?",
+    "answer": [
+      "greece"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 439,
+    "question": "Princess Haya of which country in the Middle East carried its flag at the 2000 Olympics, where she competed in the show jumping?",
+    "answer": [
+      "jordan"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "event_names_countries",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 440,
+    "question": "Ahmed al-Maktoum is a member of the royal family of which of the United Arab Emirates, for which he won its only Olympic medal, a gold in the double trap shooting at Athens in 2004?",
+    "answer": [
+      "dubai"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "records_archery",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 441,
+    "question": "What is the name of the horse on which Zara Philips will be competing at London 2012?",
+    "answer": [
+      "high kingdom"
+    ],
+    "sim_top1_table": "horse_biography",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_torch_bearers",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 442,
+    "question": "Which current European monarch, plus his son and daughter, have all competed in the Olympic Games at sailing, between 1972 and 1992?",
+    "answer": [
+      "juan carlos i"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 443,
+    "question": "Which competitor at the 2000 Olympics went on to marry Prince Albert II of Monaco?",
+    "answer": [
+      "charlene wittstock"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 444,
+    "question": "In which city did Prince Hendrik of the Netherlands open the 1928 Games?",
+    "answer": [
+      "amsterdam"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 445,
+    "question": "Which future monarch won a yachting gold medal at these Games?",
+    "answer": [
+      "olav v"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "edition_sport_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 446,
+    "question": "Who opened the Olympic games the first time they were staged in London, in 1908?",
+    "answer": [
+      "edward vii"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 447,
+    "question": "In which sport did Australian Matt Mitcham stop China winning all eight golds at the 2008 Games?",
+    "answer": [
+      "diving"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 448,
+    "question": "What nickname was given to the Olympic stadium in Beijing due to its striking appearance?",
+    "answer": [
+      "bird's nest"
+    ],
+    "sim_top1_table": "venues",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 449,
+    "question": "In which sport did Elena Dementieva, Dinara Safina and Vera Zvonareva give Russia a clean sweep of the individual medals at Beijing?",
+    "answer": [
+      "tennis"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 450,
+    "question": "Which sport at the 2008 games was staged at Qingdao?",
+    "answer": [
+      "sailing"
+    ],
+    "sim_top1_table": "edition_sport_events",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 451,
+    "question": "Weightlifter Prapawadee Jaroenrattanatatakoon has the longest name of any Olympic champion. For which country did she win gold at Beijing?",
+    "answer": [
+      "thailand"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_top_medallists",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 452,
+    "question": "Emma Hindle, Laura Bechtolsheimer and Jane Gregory were Britain's competitors in which event at the 2008 Games?",
+    "answer": [
+      "dressage"
+    ],
+    "sim_top1_table": "ceremonies_torch_bearers",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_results",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 453,
+    "question": "Nathalie du Toit became the first amputee to take part in the Olympics for 104 years when she competed in Beijing. What country did she represent?",
+    "answer": [
+      "south africa"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 454,
+    "question": "Which Cuban athlete won the 110m hurdles at the Beijing Olympics?",
+    "answer": [
+      "dayton robles"
+    ],
+    "sim_top1_table": "olympic_athlete_results",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 455,
+    "question": "In which sport was the men's final between France and Iceland and the women's between Norway and Russia?",
+    "answer": [
+      "handball"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 456,
+    "question": "Which song did Jimmy Page and Leona Lewis perform outside a London bus at the 2008 closing ceremony?",
+    "answer": [
+      "whole lotta love"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_torch_bearers",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 457,
+    "question": "Which mother of two won four sprint gold medals at London in 1948?",
+    "answer": [
+      "fanny blankers-koen"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "olympics_athlete_biographies",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 458,
+    "question": "Which great Finnish runner won both the 1,500m and 5,000m at Paris in 1924 even though the finals were only two hours apart?",
+    "answer": [
+      "paavo nurmi"
+    ],
+    "sim_top1_table": "olympic_athlete_results",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 459,
+    "question": "Who is the only woman to win six gold medals at the same Olympics, in the pool at Seoul in 1988?",
+    "answer": [
+      "kristin otto"
+    ],
+    "sim_top1_table": "event_names_top_medallists",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 460,
+    "question": "Which American athlete won four golds at Berlin in 1936, much to the displeasure of Adolf Hitler?",
+    "answer": [
+      "jesse owens"
+    ],
+    "sim_top1_table": "olympics_athletes_infobox",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 461,
+    "question": "In which sport did Larissa Latynina of the Soviet Union win nine gold medals, more than any other female in the history of the Games?",
+    "answer": [
+      "gymnastics"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 462,
+    "question": "How many world records was Usain Bolt involved in setting in Beijing ?",
+    "answer": [
+      "3"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "records_speed_skating",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 463,
+    "question": "Which swimmer's seven golds at Munich in 1972 were all in world record times?",
+    "answer": [
+      "mark spitz"
+    ],
+    "sim_top1_table": "records_speed_skating",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 464,
+    "question": "In which sport did German Birgit Fischer win eight gold medals across six Olympic Games, the last in Athens 2004 at the age of 46?",
+    "answer": [
+      "kayaking"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 465,
+    "question": "Which nine-time gold medallist in athletics was named \"Sportsman of the Century\" by the IOC in 1999?",
+    "answer": [
+      "carl lewis"
+    ],
+    "sim_top1_table": "olympics_athlete_biographies",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 466,
+    "question": "Who, at Montreal in 1976, became the first gymnast to receive a perfect mark of 10.0, on the asymmetric bars?",
+    "answer": [
+      "nadia comaneci"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 467,
+    "question": "In 1956, although the Games were in Melbourne, which sport was forced to stage its events five months earlier in Stockholm?",
+    "answer": [
+      "equestrianism"
+    ],
+    "sim_top1_table": "edition_sport_events",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 468,
+    "question": "In which sport were the three leading women successively disqualified for lifting in the closing stages of the race at the 2000 Sydney Olympics?",
+    "answer": [
+      "20 kilometres race walk"
+    ],
+    "sim_top1_table": "sport_group_top_athletes",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 469,
+    "question": "In which sport at the first Olympic Games in Athens was one of the events limited to members of the Greek navy only?",
+    "answer": [
+      "swimming"
+    ],
+    "sim_top1_table": "sports",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "records_short_track_speed_skating",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 470,
+    "question": "In which equestrian event was Sweden disqualified after London 1948 because one of its competitors was a sergeant, not a commissioned officer?",
+    "answer": [
+      "dressage"
+    ],
+    "sim_top1_table": "horse_event_record",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "horse_info",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 471,
+    "question": "In 1904, George Eyser picked up three medals in which sport despite competing with a wooden leg?",
+    "answer": [
+      "gymnastics"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "sport_medals",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 472,
+    "question": "Man Afraid Soap, Almighty Voice and Rain in Face were among the competitors in which sport at the 1904 Olympics, won by Canada the only two times it was staged?",
+    "answer": [
+      "lacrosse"
+    ],
+    "sim_top1_table": "country_edition_result",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 473,
+    "question": "How many paying spectators attended the croquet tournament at the Paris Olympics of 1900?",
+    "answer": [
+      "1"
+    ],
+    "sim_top1_table": "event_total_participants",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 474,
+    "question": "Which Swedish future world heavyweight boxing champion was disqualified from the 1952 final for not \"giving of his best\"?",
+    "answer": [
+      "ingemar johansson"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 475,
+    "question": "Who won the first British gold medal at the 2008 Olympic Games, in the women's cycling road race?",
+    "answer": [
+      "nicole cooke"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 476,
+    "question": "Two British gold medal-winning athletes were the subject of the film Chariots of Fire. Name one of them",
+    "answer": [
+      "harold abrahams",
+      "eric liddell"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "athlete_biography",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 477,
+    "question": "Which co-founder of the London Marathon won the 3,000m steeplechase gold medal at Melbourne in 1956?",
+    "answer": [
+      "chris brasher"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 478,
+    "question": "Stephanie Cook was a British gold medallist at Sydney in which event, the first time a woman's competition was staged?",
+    "answer": [
+      "modern pentathlon"
+    ],
+    "sim_top1_table": "edition_sport_events",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "event_names_top_medallists",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 479,
+    "question": "Ben Ainslie won his first Olympic gold in 2000 in a Laser boat, but in which type of boat did he win gold in 2004 and 2008?",
+    "answer": [
+      "finn"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 480,
+    "question": "Sarah Webb and Sarah Ayton were two of the three winning members of the crew in which sailing class, the only two times it was staged at the Olympics, in 2004 and 2008?",
+    "answer": [
+      "yngling"
+    ],
+    "sim_top1_table": "records_speed_skating",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 481,
+    "question": "Rebecca Adlington's gold was the first in the swimming pool at an Olympic Games by a British woman for 48 years. Who won that previous gold medal, in Rome?",
+    "answer": [
+      "anita lonsbrough"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 482,
+    "question": "Who scored eight goals in seven games to help Britain's men's hockey team to Olympic gold at Seoul in 1998?",
+    "answer": [
+      "sean kerly"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 483,
+    "question": "Heir to the Marquess of Exeter, which Lord won the 400m hurdles at the 1928 Olympics?",
+    "answer": [
+      "lord burghley"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 484,
+    "question": "What was the surname of the brothers whose late surge in the coxed pairs in 1992 brought a surprise gold medal?",
+    "answer": [
+      "searle"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 485,
+    "question": "In which Olympic Games did judo make its debut as an Olympic sport?",
+    "answer": [
+      "tokyo 1964"
+    ],
+    "sim_top1_table": "sports",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 486,
+    "question": "The standard distance for which event was set at the London Olympics of 1908, although it wasn't until 1924 that it was set at that length?",
+    "answer": [
+      "marathon"
+    ],
+    "sim_top1_table": "records_short_track_speed_skating",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 487,
+    "question": "In which sport has China won 20 out of the 24 gold medals competed for since it was introduced at Seoul in 1988?",
+    "answer": [
+      "table tennis"
+    ],
+    "sim_top1_table": "country_edition_result",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 488,
+    "question": "Archery was dropped from the Olympic programme after the 1920 games.In shich year did it return-1964, 1972 or 1980?",
+    "answer": [
+      "1972"
+    ],
+    "sim_top1_table": "records_archery",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "records_archery",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 489,
+    "question": "The 14 tallest male competitors and the four tallest female competitors in the history of the Olympic Games all competed in which sport?",
+    "answer": [
+      "basketball"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "sports",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 490,
+    "question": "In which six-person team sport are the USA and Brazil defending men's and women's champions respectively in London?",
+    "answer": [
+      "volleyball"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 491,
+    "question": "At which Olympics did BMX racing make its debut?",
+    "answer": [
+      "beijing 2008"
+    ],
+    "sim_top1_table": "records_short_track_speed_skating",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 492,
+    "question": "Which of these sports has never been played at the Olympics? Croquet, jeu de paume, kabaddi or pelota?",
+    "answer": [
+      "kabaddi"
+    ],
+    "sim_top1_table": "events_non_starters",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "sports",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 493,
+    "question": "First held in Beijing, what is the longest distance in a swimming event at the Olympics?",
+    "answer": [
+      "10000 m"
+    ],
+    "sim_top1_table": "ceremonies_torch_bearers",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "records_archery",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 494,
+    "question": "What is the maximum score an execution judge can award in an Olympic trampoline competition?",
+    "answer": [
+      "10"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 495,
+    "question": "Which sport will be taking place at Eton Dorney in 2012?",
+    "answer": [
+      "rowing"
+    ],
+    "sim_top1_table": "sport_events",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 496,
+    "question": "Where in London was the Countdown Clock unveiled on March 14, 2011?",
+    "answer": [
+      "trafalgar square"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 497,
+    "question": "Savannah Marshall, Nicola Adams and Natasha Jonas will be the first women to represent the UK in which sport at London 2012?",
+    "answer": [
+      "boxing"
+    ],
+    "sim_top1_table": "sport_medals",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 498,
+    "question": "Which city did London defeat in the final round of voting to host the 2012 Games?",
+    "answer": [
+      "paris"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 499,
+    "question": "Drew Sullivan and Julie Page are the men's and women's team captains for Great Britain at which sport at London 2012?",
+    "answer": [
+      "basketball"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 500,
+    "question": "The 2012 medals will be the biggest and heaviest to date. How much will they weigh-400g, 550g or 700g?",
+    "answer": [
+      "400 g"
+    ],
+    "sim_top1_table": "editions_medal_details",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 501,
+    "question": "Despite having been played at the Olympics since 1936, 2012 will see British teams competing in which sport for the first time?",
+    "answer": [
+      "handball"
+    ],
+    "sim_top1_table": "sports",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 502,
+    "question": "Which sport will be taking place over seven days at the ExCeL centre, starting with the lowest weight level and progressing each day through the next to the highest level on the final day?",
+    "answer": [
+      "judo"
+    ],
+    "sim_top1_table": "sport_events",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 503,
+    "question": "The men's cycling road race includes nine circuits of which hill?",
+    "answer": [
+      "box hill"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_results",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 504,
+    "question": "On what date is the closing ceremoney of the 2012 Olympics?",
+    "answer": [
+      "august 12"
+    ],
+    "sim_top1_table": "ceremonies_official_oath",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "ceremonies_torch_bearers",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 505,
+    "question": "In which sport was Romanian gold medallist Andreea Raducan stripped of her title at Sydney after testing positive in a drugs test due to her team doctor having given her an Nurofen tablet to counteract breathing difficulties?",
+    "answer": [
+      "gymnastics"
+    ],
+    "sim_top1_table": "olympic_athlete_results",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 506,
+    "question": "London is in 2012 the first city to host three modern Olympics, going ahead of which three cities that have staged the Games twice?",
+    "answer": [
+      "athens",
+      "paris",
+      "los angeles"
+    ],
+    "sim_top1_table": "editions_bid_process",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 507,
+    "question": "At 7,400 feet above sea level, what has been the highest location so far for a Summer Olympic Games?",
+    "answer": [
+      "mexico city"
+    ],
+    "sim_top1_table": "place_names",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "place_names",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 508,
+    "question": "Which men's track event had a Britsh gold medallist in 1920, 1924, 1928 and 1932?",
+    "answer": [
+      "800 m"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "records_short_track_speed_skating",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 509,
+    "question": "At the Montreal Olympics of 1976, the sailing took place out of the Portsmouth Olympic Harbour at Kingston, on which of the North American Great Lakes?",
+    "answer": [
+      "lake ontario"
+    ],
+    "sim_top1_table": "place_names",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_best_performance_bycountry",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 510,
+    "question": "Who is the only tennis player to win an Olympic singles tennis title and achieve the Grand Slam in the same year?",
+    "answer": [
+      "steffi graf"
+    ],
+    "sim_top1_table": "event_names_top_medallists",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_results",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 511,
+    "question": "Who lit the Olympic Flame at the opening ceremony for the 1948 London Olympics？",
+    "answer": [
+      "john mark"
+    ],
+    "sim_top1_table": "ceremonies_torch_bearers",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_coach_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 512,
+    "question": "Winners at the ancient Olympic Games at Olympia were crowned by a wreath made from branches of which tree?",
+    "answer": [
+      "olive"
+    ],
+    "sim_top1_table": "event_names_medal_winners",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "ceremonies_official_oath",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 513,
+    "question": "Which rather unlikely country was the last to win a rugby gold medal, at Paris in 1924?",
+    "answer": [
+      "usa"
+    ],
+    "sim_top1_table": "country_medal_by_game",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 514,
+    "question": "In which stadium did the opening ceremony for the 1948 London Olympics take place?",
+    "answer": [
+      "wembley stadium"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_coach_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 515,
+    "question": "What does the Olympic motto of \"Citius, Altius, Fortius\" mean when translated into English?",
+    "answer": [
+      "faster",
+      "higher",
+      "stronger"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 516,
+    "question": "Which athlete's world record times when winning gold in the women's 100m and 200m at Seoul in 1988 have stood undefeated ever since?",
+    "answer": [
+      "florence griffith-joyner"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_olympic_records",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 517,
+    "question": "Which sports car manufacturer made the bicycle on which Chris Boardman won the 4,000m pursuit in 1992?",
+    "answer": [
+      "lotus"
+    ],
+    "sim_top1_table": "horse_biography",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 518,
+    "question": "And what are the five colours of the rings on the Olympic Flag?",
+    "answer": [
+      "blue",
+      "black",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "sim_top1_table": "flagbearers",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "flagbearers",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 519,
+    "question": "Which countries as a rule are the first and last to enter the stadium at an Olympic Games opening ceremony?",
+    "answer": [
+      "greece"
+    ],
+    "sim_top1_table": "ceremonies_official_oath",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "ceremonies_official_oath",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 520,
+    "question": "Teams from Britain or Argentina have won the gold medal in which sport the only five times it was staged at the Olympics?",
+    "answer": [
+      "polo"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "editions_medal_details",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 521,
+    "question": "For which country did Eric \"The Eel\" Moussambani race in the men's 100m freestyle at the Sydney Olympics, despite him never having attempted that distance before?",
+    "answer": [
+      "equatorial guinea"
+    ],
+    "sim_top1_table": "events_non_starters",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 522,
+    "question": "Nicknamed \"The Vaulting Vicar\", theology professor Reverend Bob Richards is the only man to have won two golds in which event, in 1952 and 1956?",
+    "answer": [
+      "pole vault"
+    ],
+    "sim_top1_table": "edition_sport_medal",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 523,
+    "question": "Who ran in gold shoes to win two golds at Atlanta in 1996?",
+    "answer": [
+      "michael johnson"
+    ],
+    "sim_top1_table": "sport_group_top_athletes",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_top_medallists",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 524,
+    "question": "In which event did Dorando Pietri of Italy capture hearts at London in 1908, receiving a medal from Queen Alexandra to compensate for his disqualification for receiving assistance?",
+    "answer": [
+      "marathon"
+    ],
+    "sim_top1_table": "edition_sport_medal_table",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 525,
+    "question": "Vladimir Kuts in 1956, Lasse Viren in 1972 and 1976 and Miruts Yifter in 1980 all achieved gold medals in which two athletics events?",
+    "answer": [
+      "5000 m",
+      "10000 m"
+    ],
+    "sim_top1_table": "editions_top_competitors",
+    "sim_top1_relevance": 3,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 526,
+    "question": "At 32 years of age, which athlete is the oldest man to win the men's 100m?",
+    "answer": [
+      "linford christie"
+    ],
+    "sim_top1_table": "country_most_successful_competitors",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 527,
+    "question": "Which country's first track gold medal was achieved in the 110m hurdles at the 2004 Athens Games?",
+    "answer": [
+      "china"
+    ],
+    "sim_top1_table": "country_edition_result",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "country_sport_result",
+    "rerank_top1_relevance": 1
+  },
+  {
+    "id": 528,
+    "question": "Who still holds the heptathlon world record of 7,291 points, set when she won the gold medal in Seoul?",
+    "answer": [
+      "jackie joyner-kersee"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 529,
+    "question": "Which athlete is the only man to win both the 400m and 800m at the same Olympic games?",
+    "answer": [
+      "alberto juantorena"
+    ],
+    "sim_top1_table": "athlete_olympic_records",
+    "sim_top1_relevance": 1,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 3
+  },
+  {
+    "id": 530,
+    "question": "What was the surname of the Soviet athlete sisters Tamara and Iryna, who won five golds between them before disappearing when sex testing was introduced?",
+    "answer": [
+      "press"
+    ],
+    "sim_top1_table": "country_sport_result",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "country_description",
+    "rerank_top1_relevance": 2
+  },
+  {
+    "id": 531,
+    "question": "Pole Robert Korzeniowski made history at Sydney by becoming the only man to take both men's walking titles. What was the distance in kilometres he had to walk to do this?",
+    "answer": [
+      "70 km"
+    ],
+    "sim_top1_table": "ceremonies_coach_oath",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 532,
+    "question": "In which Olympic sport is Greco-Roman one of the versions competed?",
+    "answer": [
+      "wrestling"
+    ],
+    "sim_top1_table": "edition_sport_events",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "edition_sport_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 533,
+    "question": "Which Summer Olympic sport takes place on a piste?",
+    "answer": [
+      "fencing"
+    ],
+    "sim_top1_table": "sports",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 534,
+    "question": "Which sport at London 2012 involves two apparatus sets, one consisting of five balls, the other three ribbons and two hoops?",
+    "answer": [
+      "rhythmic gymnastics"
+    ],
+    "sim_top1_table": "sport_medals",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 535,
+    "question": "How long is an Olympic rowing course?",
+    "answer": [
+      "2000 m"
+    ],
+    "sim_top1_table": "records_short_track_speed_skating",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "country_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 536,
+    "question": "In which sport is the top of the net 2.43m above the ground for men and 2.24m above the ground for women?",
+    "answer": [
+      "volleyball"
+    ],
+    "sim_top1_table": "sport_top_athletes",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 537,
+    "question": "What is the name of the two-day, six-discipline cycling event that is making its debut at London 2012?",
+    "answer": [
+      "omnium"
+    ],
+    "sim_top1_table": "event_names_basic_info",
+    "sim_top1_relevance": 2,
+    "rerank_top1_table": "sport_group_events",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 538,
+    "question": "Which sport is played in four quarters of eight minutes with a team of seven?",
+    "answer": [
+      "water polo"
+    ],
+    "sim_top1_table": "country_sport",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "olympics_athletes_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 539,
+    "question": "Which swimming strokes only have race distances of 100m and 200m?",
+    "answer": [
+      "backstroke",
+      "breaststroke",
+      "butterfly"
+    ],
+    "sim_top1_table": "records_short_track_speed_skating",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "athlete_infobox",
+    "rerank_top1_relevance": 0
+  },
+  {
+    "id": 540,
+    "question": "Which event, being staged at this year's Olympics for the last time after 28 years, uses the RS:X as its equipment?",
+    "answer": [
+      "windsurfing"
+    ],
+    "sim_top1_table": "edition_sport_events",
+    "sim_top1_relevance": 0,
+    "rerank_top1_table": "event_names_basic_info",
+    "rerank_top1_relevance": 0
+  }
+]

@@ -1,0 +1,1 @@
+tables_description.json为表的详细描述，[tables_summary.json](tables_summary.json)只包含描述，[schema_texts.jsonl](schema_texts.jsonl)为拼接的
