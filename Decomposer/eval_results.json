@@ -1,0 +1,16 @@
+{
+  "n_total": 25,
+  "n_positive": 15,
+  "n_negative": 10,
+  "n_runs": 5,
+  "threshold": 0.85,
+  "sqc_mean": 1.0,
+  "sqr_mean": 0.32,
+  "dsi_mean": 0.7747,
+  "comb_acc_mean": 0.48,
+  "decomp_decision_acc": 0.72,
+  "sqc_positive_only": 1.0,
+  "decision_acc_positive": 0.8,
+  "decision_acc_negative": 0.6,
+  "avg_subq_cnt": 1.64
+}

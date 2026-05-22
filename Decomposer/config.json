@@ -1,0 +1,9 @@
+{
+    "api_key": "sk-",
+    "model": "qwen-max",
+    "temp": 0,
+    "max_subq": 4,
+    "main_project_path": "D:/olympediaRAG-main",
+    "eval_runs": 5,
+    "sim_threshold": 0.85
+}
