@@ -1,0 +1,188 @@
+[
+  {
+    "qid": "Q001",
+    "orig_q": "Who is the only person to ever win gold medals in different sports at the Summer and Winter Olympics?",
+    "gold_subs": [
+      "Who is the only person to win a gold medal at the Summer Olympics in one sport?",
+      "Who is the only person to win a gold medal at the Winter Olympics in a different sport?",
+      "Who is the only person to have won gold medals in different sports across both Summer and Winter Olympics?"
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询在夏季和冬季奥运会中不同运动项目夺金的人，然后求交集，找出唯一符合条件的运动员。"
+    }
+  },
+  {
+    "qid": "Q002",
+    "orig_q": "Olympic Wrestling Champions in Both Freestyle and Greco-Roman, Same Year",
+    "gold_subs": [
+      "Which wrestlers won gold medals in Freestyle wrestling at each Olympic Games?",
+      "Which wrestlers won gold medals in Greco-Roman wrestling at the same Olympic Games?",
+      "Which wrestlers appear in both Freestyle and Greco-Roman gold medal lists in the same year?"
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询自由式和古典式摔跤的奥运冠军，然后按运动员和年份匹配，找出同一年在两种摔跤项目中都夺冠的运动员。"
+    }
+  },
+  {
+    "qid": "Q003",
+    "orig_q": "Olympic Shooters who won more than one Olympic title in the same event in non-consecutive Games",
+    "gold_subs": [
+      "Olympic Shooters who have won multiple Olympic titles.",
+      "Olympic Shooters who won titles in the same event.",
+      "Olympic Shooters who won titles in non-consecutive Olympic Games."
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询满足以下条件的射击运动员：1.获得多次奥运冠军；2.夺冠项目相同；3.夺冠的奥运会非连续举行。最终取满足所有条件的运动员。"
+    }
+  },
+  {
+    "qid": "Q004",
+    "orig_q": "Snowboarders who won more than one Olympic title in the same event in non-consecutive Games",
+    "gold_subs": [
+      "Snowboarders who have won multiple Olympic titles.",
+      "Snowboarders who won titles in the same event.",
+      "Snowboarders who won titles in non-consecutive Olympic Games."
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询满足以下条件的单板滑雪运动员：1.获得多次奥运冠军；2.夺冠项目相同；3.夺冠的奥运会非连续举行。最终取满足所有条件的运动员。"
+    }
+  },
+  {
+    "qid": "Q005",
+    "orig_q": "Judokas who won more than one Olympic title in the same event in non-consecutive Games",
+    "gold_subs": [
+      "Judokas who have won multiple Olympic titles.",
+      "Judokas who won titles in the same event.",
+      "Judokas who won titles in non-consecutive Olympic Games."
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询满足以下条件的柔道运动员：1.获得多次奥运冠军；2.夺冠项目相同；3.夺冠的奥运会非连续举行。最终取满足所有条件的运动员。"
+    }
+  },
+  {
+    "qid": "Q006",
+    "orig_q": "Tennis players who won more than one Olympic title in the same event in non-consecutive Games",
+    "gold_subs": [
+      "Tennis players who have won multiple Olympic titles.",
+      "Tennis players who won titles in the same event.",
+      "Tennis players who won titles in non-consecutive Olympic Games."
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询满足以下条件的网球运动员：1.获得多次奥运冠军；2.夺冠项目相同；3.夺冠的奥运会非连续举行。最终取满足所有条件的运动员。"
+    }
+  },
+  {
+    "qid": "Q007",
+    "orig_q": "Equestrian Eventing Riders who won more than one Olympic title in the same event in non-consecutive Games",
+    "gold_subs": [
+      "Equestrian Eventing Riders who have won multiple Olympic titles.",
+      "Equestrian Eventing Riders who won titles in the same event.",
+      "Equestrian Eventing Riders who won titles in non-consecutive Olympic Games."
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询满足以下条件的马术三项赛骑手：1.获得多次奥运冠军；2.夺冠项目相同；3.夺冠的奥运会非连续举行。最终取满足所有条件的骑手。"
+    }
+  },
+  {
+    "qid": "Q008",
+    "orig_q": "Wrestlers who won more than one Olympic title in the same event in non-consecutive Games",
+    "gold_subs": [
+      "Wrestlers who have won multiple Olympic titles.",
+      "Wrestlers who won titles in the same event.",
+      "Wrestlers who won titles in non-consecutive Olympic Games."
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询满足以下条件的摔跤运动员：1.获得多次奥运冠军；2.夺冠项目相同；3.夺冠的奥运会非连续举行。最终取满足所有条件的运动员。"
+    }
+  },
+  {
+    "qid": "Q009",
+    "orig_q": "The 2026 Winter Olympics will take place in which two Italian cities?",
+    "gold_subs": [
+      "The 2026 Winter Olympics will take place in which two Italian cities?"
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "问题本身已足够原子化，直接查询2026年冬奥会的举办城市。"
+    }
+  },
+  {
+    "qid": "Q010",
+    "orig_q": "Which athlete is the only man to win both the 400m and 800m at the same Olympic games?",
+    "gold_subs": [
+      "Which athlete won the 400m at an Olympic games?",
+      "Which athlete won the 800m at the same Olympic games?"
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询在同一届奥运会上赢得400米和800米冠军的男运动员，然后求交集，找出唯一一位同时获得两项冠军的运动员。"
+    }
+  },
+  {
+    "qid": "Q011",
+    "orig_q": "Luge athletes who won more than one Olympic title in the same event in non-consecutive Games",
+    "gold_subs": [
+      "Luge athletes who have won multiple Olympic titles.",
+      "Luge athletes who won titles in the same event.",
+      "Luge athletes who won titles in non-consecutive Olympic Games."
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询满足以下条件的雪橇运动员：1.获得多次奥运冠军；2.夺冠项目相同；3.夺冠的奥运会非连续举行。最终取满足所有条件的运动员。"
+    }
+  },
+  {
+    "qid": "Q012",
+    "orig_q": "Which two players have scored the most headed goals in Premier League history?",
+    "gold_subs": [
+      "Which two players have scored the most headed goals in Premier League history?"
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "问题本身已足够原子化，直接查询英超历史上头球进球最多的两名球员。"
+    }
+  },
+  {
+    "qid": "Q013",
+    "orig_q": "Which competitor at the 2000 Olympics went on to marry Prince Albert II of Monaco?",
+    "gold_subs": [
+      "Which competitor at the 2000 Olympics went on to marry Prince Albert II of Monaco?"
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "问题本身已足够原子化，直接查询满足条件的运动员。"
+    }
+  },
+  {
+    "qid": "Q014",
+    "orig_q": "Modern Pentathletes who successfully defended their Olympic title in the same event in back-to-back Games",
+    "gold_subs": [
+      "Modern Pentathletes who successfully defended their Olympic title in back-to-back Games.",
+      "Modern Pentathletes who won the same event in back-to-back Games."
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询现代五项运动员中成功卫冕奥运冠军的人，以及在连续两届奥运会上赢得同一项目的人，取交集。"
+    }
+  },
+  {
+    "qid": "Q015",
+    "orig_q": "Badminton players who successfully defended their Olympic title in the same event in back-to-back Games",
+    "gold_subs": [
+      "Badminton players who successfully defended their Olympic title in back-to-back Games.",
+      "Badminton players who won the same event in back-to-back Games."
+    ],
+    "gold_comb": {
+      "type": "parallel",
+      "desc": "分别查询羽毛球运动员中成功卫冕奥运冠军的人，以及在连续两届奥运会上赢得同一项目的人，取交集。"
+    }
+  }
+]
