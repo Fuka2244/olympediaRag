@@ -36,7 +36,7 @@ def ask_llm_to_fix(bad_sql, error_msg, question,warning_msg=""):
         response = Generation.call(
             model='qwen-turbo',  # 使用 turbo 即可胜任语法修复
             prompt=prompt,
-            api_key='sk-c05e07d094484bcd97c40c234d85923c',
+            api_key='',
             result_format='message'
         )
 
