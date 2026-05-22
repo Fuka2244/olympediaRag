@@ -13,7 +13,7 @@ DB_CONFIG = {
     "charset": "utf8mb4"
 }
 
-dashscope.api_key = "sk-c05e07d094484bcd97c40c234d85923c"
+dashscope.api_key = ""
 # ==========================================
 
 
