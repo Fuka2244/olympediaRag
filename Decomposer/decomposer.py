@@ -1,10 +1,19 @@
 import json
+import os
 import dashscope
 from dashscope import Generation
 
 def load_conf():
     with open('config.json', 'r', encoding='utf-8') as f:
-        return json.load(f)
+        conf = json.load(f)
+    
+    api_key = os.getenv('DASH_SCOPE_API_KEY')
+    if api_key:
+        conf['api_key'] = api_key
+    elif not conf.get('api_key') or conf['api_key'] == 'sk-':
+        raise ValueError('API Key未设置，请在环境变量中设置DASH_SCOPE_API_KEY或在config.json中配置')
+    
+    return conf
 
 def load_prompts():
     with open('prompts.json', 'r', encoding='utf-8') as f:
@@ -42,9 +51,9 @@ def parse_resp(text):
     return json.loads(text.strip())
 
 def valid_subqs(data, max_q):
-    subqs = data.get('sub_qs', [])
+    subqs = data.get('sub_questions', [])
     if len(subqs) > max_q:
-        data['sub_qs'] = subqs[:max_q]
+        data['sub_questions'] = subqs[:max_q]
     return data
 
 def decomposer(query):
@@ -53,8 +62,16 @@ def decomposer(query):
     msgs = build_promp(conf, prom, query)
     raw_out = call_qwen(conf, msgs)
     data = parse_resp(raw_out)
+    
     data = valid_subqs(data, conf['max_subq'])
-    return data
+    
+    result = {
+        'original_question': data.get('original_question', query),
+        'sub_questions': data.get('sub_questions', []),
+        'combination': data.get('combination', {})
+    }
+    
+    return result
 
 def main():
     print("=" * 50)
@@ -71,12 +88,12 @@ def main():
         print(f"原始问题: {q}")
         try:
             res = decomposer(q)
-            print(f"组合类型: {res.get('comb', {}).get('type', '未指定')}")
-            print(f"组合描述: {res.get('comb', {}).get('desc', '无')}")
-            if res.get('comb', {}).get('deps'):
-                print(f"依赖关系: 子问题{res['comb']['deps']}")
+            print(f"组合类型: {res.get('combination', {}).get('type', '未指定')}")
+            print(f"组合描述: {res.get('combination', {}).get('description', '无')}")
+            if res.get('combination', {}).get('dependencies'):
+                print(f"依赖关系: 子问题{res['combination']['dependencies']}")
             print("子问题列表:")
-            for j, sq in enumerate(res['sub_qs'], 1):
+            for j, sq in enumerate(res['sub_questions'], 1):
                 print(f"  {j}. {sq}")
         except Exception as e:
             print(f"错误: {e}")
@@ -90,12 +107,12 @@ def main():
             continue
         try:
             res = decomposer(uq)
-            print(f"\n组合类型: {res.get('comb', {}).get('type', '未指定')}")
-            print(f"组合描述: {res.get('comb', {}).get('desc', '无')}")
-            if res.get('comb', {}).get('deps'):
-                print(f"依赖关系: 依赖子问题索引 {res['comb']['deps']}")
+            print(f"\n组合类型: {res.get('combination', {}).get('type', '未指定')}")
+            print(f"组合描述: {res.get('combination', {}).get('description', '无')}")
+            if res.get('combination', {}).get('dependencies'):
+                print(f"依赖关系: 依赖子问题索引 {res['combination']['dependencies']}")
             print("子问题列表:")
-            for j, sq in enumerate(res['sub_qs'], 1):
+            for j, sq in enumerate(res['sub_questions'], 1):
                 print(f"  {j}. {sq}")
         except Exception as e:
             print(f"错误: {e}")

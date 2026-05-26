@@ -60,11 +60,9 @@ SYSTEM_PROMPT = """
 - 仅当问题中的实体、时间、国家、项目等能可靠映射到表描述中的列时，才生成约束。
 - 若无法可靠确定列名、值或 operator，则不要生成该约束。
 - 禁止臆造列名。
-- column_value_constraints.table_name 必须属于 top_k_tables。
 - 一个约束格式如下：
 
 {
-  "table_name": "...",
   "column": "...",
   "operator": "=",
   "value": "..."
@@ -99,7 +97,6 @@ SYSTEM_PROMPT = """
   ],
   "column_value_constraints": [
     {
-      "table_name": "table_a",
       "column": "noc", 
       "operator": "=",
       "value": "CHN"
@@ -250,12 +247,12 @@ def table_selector(question: str, rerank_top25: list[dict], k: int = 8, model: s
     for t_name in result["top_k_tables"]:
         assert t_name in candidate_table_names, \
             f"top_k_tables 中的表名 {t_name} 不在 rerank_top25 候选池中"
-
-    # 校验 column_value_constraints
-    top_k_set = set(result["top_k_tables"])
-    for constraint in result.get("column_value_constraints", []):
-        assert constraint["table_name"] in top_k_set, \
-            f"column_value_constraints 中的表名 {constraint['table_name']} 不在 top_k_tables 中"
+    #
+    # # 校验 column_value_constraints
+    # top_k_set = set(result["top_k_tables"])
+    # for constraint in result.get("column_value_constraints", []):
+    #     assert constraint["table_name"] in top_k_set, \
+    #         f"column_value_constraints 中的表名 {constraint['table_name']} 不在 top_k_tables 中"
 
     return result
 
@@ -287,12 +284,12 @@ def get_completed_ids(output_file: str) -> set:
 
 def process_questions(
     input_file: str = "d:/Projects/pythonProject/retrival_result/olympedia_questions_search_results.json",
-    output_file: str = "d:/Projects/pythonProject/ai_schema_link/table_selection_results.jsonl",
+    output_file: str = "d:/Projects/pythonProject/ai_schema_link/table_selection_results_qwenmax.jsonl",
     k: int = 8,
-    model: str = "qwen-plus",
+    model: str = "qwen-max",
     verbose: bool = False,
     save_process: bool = False,
-    process_log_dir: str = "d:/Projects/pythonProject/ai_schema_link/process",
+    process_log_dir: str = "d:/Projects/pythonProject/ai_schema_link/process_qwenmax",
     resume: bool = True
 ) -> None:
     """
